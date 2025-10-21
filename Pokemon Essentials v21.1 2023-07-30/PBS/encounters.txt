@@ -257,16 +257,16 @@ OldRod
 #-------------------------------
 [043] # Cedric Academy
 Land,21
-	30,SENTRET,3,4
-	30,FLETCHLING,3,5
+    30,FLETCHLING,3,5
+    30,SENTRET,3,4
     20,BUNNELBY,5
 LandEvening,21
-	30,SENTRET,3,4
-	30,FLETCHLING,3,5
+    30,FLETCHLING,3,5
+    30,SENTRET,3,4
     20,NICKIT,5
 LandNight,21
-	30,SENTRET,3,4
-	30,FLETCHLING,3,5
+    30,FLETCHLING,3,5
+    30,SENTRET,3,4
     20,NICKIT,5
 #-------------------------------
 [044] # Route 6
@@ -284,6 +284,10 @@ Land,21
 RockSmash,50
     90,NOSEPASS,13,14
     10,GEODUDE,12,15
+#-------------------------------
+[048] # Frannaple Meadow Outskirts
+Land,21
+    20,SENTRET,5
 #-------------------------------
 [049] # Rock Cave 1F
 Cave,5
@@ -402,3 +406,35 @@ Land,21
     10,PIKACHU,11,14
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
+#-------------------------------
+[076] # Academy Garden
+Land,21
+    20,CATERPIE,2,4
+    15,LEDYBA,2,4
+    15,SKWOVET,2,4
+    10,COMBEE,3,5
+    10,DUCKLETT,3,5
+    10,FLETCHLING,2,5
+    10,GOSSIFLEUR,3,5
+    5,NIDORANfE,2,4
+    5,NIDORANmA,2,4
+LandEvening,21
+    15,GOSSIFLEUR,3,5
+    15,HOOTHOOT,2,5
+    15,KRICKETOT,2,4
+    15,NICKIT,2,4
+    15,SKWOVET,2,4
+    10,FLETCHLING,2,5
+    5,KARRABLAST,4,6
+    5,NIDORANfE,2,4
+    5,NIDORANmA,2,4
+LandNight,21
+    15,GOSSIFLEUR,3,5
+    15,HOOTHOOT,2,5
+    15,KRICKETOT,2,4
+    15,NICKIT,2,4
+    15,SKWOVET,2,4
+    10,FLETCHLING,2,5
+    5,KARRABLAST,4,6
+    5,NIDORANfE,2,4
+    5,NIDORANmA,2,4
