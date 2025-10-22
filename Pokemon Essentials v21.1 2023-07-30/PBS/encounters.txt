@@ -214,7 +214,7 @@ Land,21
     40,SPEAROW,13,16
     10,SLUGMA,13,14
 #-------------------------------
-[042] # Deeper Academy Garden
+[077] # Deeper Academy Garden
 Land,21
     25,SKWOVET,9,10
     15,GOSSIFLEUR,9,11

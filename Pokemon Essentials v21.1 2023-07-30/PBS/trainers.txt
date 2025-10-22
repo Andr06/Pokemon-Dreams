@@ -127,3 +127,9 @@ LoseText = I'm a silly goose! I need to get stronger!
 Pokemon = CATERPIE,4
 Pokemon = NICKIT,4
 Pokemon = LITWICK,5
+#-------------------------------
+[PARASOLLADY,Mary]
+LoseText = My elegant Pokemon weren't enough!
+Pokemon = CHERUBI,13
+Pokemon = FOMANTIS,14
+Pokemon = IVYSAUR,14
