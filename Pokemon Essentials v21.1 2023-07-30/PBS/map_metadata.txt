@@ -421,3 +421,11 @@ BattleBack = city
 Name = Academy Garden
 Outdoor = true
 ShowArea = true
+#-------------------------------
+[077]   # Deeper Academy Garden
+Name = Deeper Academy Garden
+Outdoor = true
+#-------------------------------
+[078]   # Cedric Academy
+Name = Cedric Academy
+Outdoor = true
