@@ -421,11 +421,19 @@ BattleBack = city
 Name = Academy Garden
 Outdoor = true
 ShowArea = true
+Environment = ForestGrass
 #-------------------------------
 [077]   # Deeper Academy Garden
 Name = Deeper Academy Garden
 Outdoor = true
+ShowArea = true
+Environment = Grass
 #-------------------------------
 [078]   # Cedric Academy
 Name = Cedric Academy
+Outdoor = true
+Environment = Grass
+#-------------------------------
+[080]   # Frannaple Meadow Outskirts
+Name = Franapple Meadow Outskirts
 Outdoor = true
