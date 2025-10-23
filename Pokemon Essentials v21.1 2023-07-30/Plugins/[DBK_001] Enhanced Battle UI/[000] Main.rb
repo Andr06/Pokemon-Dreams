@@ -361,9 +361,9 @@ class Battle::Scene::EnhancedUIPrompt < Sprite
     return if !@battler
     offset = 0
     textPos = [
-      [_INTL(": A"), 68, 7,  :left, TEXT_BASE_COLOR, TEXT_SHADOW_COLOR, :outline],
-      [_INTL(": S"), 68, 31, :left, TEXT_BASE_COLOR, TEXT_SHADOW_COLOR, :outline]
-    ]
+    [_INTL(": "), 68, 7,  :left, TEXT_BASE_COLOR, TEXT_SHADOW_COLOR, :outline],
+   [_INTL(": "), 68, 31, :left, TEXT_BASE_COLOR, TEXT_SHADOW_COLOR, :outline]
+   ]
     case @window
     when Battle::Scene::FIGHT_BOX
       @bgSprite.src_rect.y = @bgBitmap.height / 2

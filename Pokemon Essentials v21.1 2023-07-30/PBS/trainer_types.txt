@@ -65,40 +65,23 @@ Name = Artist
 Gender = Male
 BaseMoney = 48
 #-------------------------------
-[ARTIST]
-Name = Artist
-Gender = Male
-BaseMoney = 48
-#-------------------------------
-[BACKPACKER_F]
-Name = Backpacker
-Gender = Female
-BaseMoney = 32
-#-------------------------------
-[BACKPACKER_M]
-Name = Backpacker
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[BAKER]
-Name = Baker
-Gender = Female
-BaseMoney = 32
-#-------------------------------
 [BATTLEGIRL2]
 Name = Battle Girl
 Gender = Female
 BaseMoney = 16
+SpriteScale = 1
 #-------------------------------
 [BATTLEGIRL]
 Name = Battle Girl
 Gender = Female
 BaseMoney = 16
+SpriteScale = 1
 #-------------------------------
 [BEAUTY2]
 Name = Beauty
 Gender = Female
 BaseMoney = 56
+SpriteScale = 1
 #-------------------------------
 [BEAUTY3]
 Name = Beauty
@@ -186,17 +169,7 @@ Name = Channeler
 Gender = Female
 BaseMoney = 32
 #-------------------------------
-[CLERK_F]
-Name = Clerk
-Gender = Female
-BaseMoney = 24
-#-------------------------------
 [CLERK_M2]
-Name = Clerk
-Gender = Male
-BaseMoney = 24
-#-------------------------------
-[CLERK_M]
 Name = Clerk
 Gender = Male
 BaseMoney = 24
@@ -205,26 +178,31 @@ BaseMoney = 24
 Name = Clown
 Gender = Male
 BaseMoney = 24
+SpriteScale = 1
 #-------------------------------
 [COLLECTOR]
 Name = Collector
 Gender = Male
 BaseMoney = 64
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_F2]
 Name = Cooltrainer
 Gender = Female
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_F3]
 Name = Cooltrainer
 Gender = Female
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_F4]
 Name = Cooltrainer
 Gender = Female
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_F]
 Name = Cool Trainer
@@ -235,16 +213,19 @@ BaseMoney = 60
 Name = Cooltrainer
 Gender = Male
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_M3]
 Name = Cooltrainer
 Gender = Male
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_M4]
 Name = Cooltrainer
 Gender = Male
 BaseMoney = 60
+SpriteScale = 1
 #-------------------------------
 [COOLTRAINER_M]
 Name = Cool Trainer
@@ -255,6 +236,7 @@ BaseMoney = 60
 Name = Cowgirl
 Gender = Female
 BaseMoney = 16
+SpriteScale = 1
 #-------------------------------
 [CRUSHGIRL]
 Name = Crush Girl
@@ -271,45 +253,22 @@ Name = Cyclist
 Gender = Female
 BaseMoney = 32
 #-------------------------------
-[CYCLIST_F]
-Name = Cyclist
-Gender = Female
-BaseMoney = 32
-#-------------------------------
 [CYCLIST_M2]
 Name = Cyclist
 Gender = Male
 BaseMoney = 32
 #-------------------------------
-[CYCLIST_M]
-Name = Cyclist
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[DANCER]
-Name = Dancer
-Gender = Male
-BaseMoney = 24
-#-------------------------------
-[DEPOTAGENT]
-Name = Depot Agent
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[DOCTOR]
-Name = Doctor
-Gender = Male
-BaseMoney = 60
-#-------------------------------
 [DRAGONTAMER]
 Name = Dragon Tamer
 Gender = Male
 BaseMoney = 32
+SpriteScale = 1
 #-------------------------------
 [ELDER]
 Name = Elder
 Gender = Male
 BaseMoney = 120
+SpriteScale = 1
 #-------------------------------
 [ENGINEER]
 Name = Engineer
@@ -320,6 +279,7 @@ BaseMoney = 48
 Name = Firebreather
 Gender = Male
 BaseMoney = 32
+SpriteScale = 1
 #-------------------------------
 [FISHERMAN2]
 Name = Fisherman
@@ -357,20 +317,10 @@ Name = Guitarist
 Gender = Male
 BaseMoney = 24
 #-------------------------------
-[GUITARIST]
-Name = Guitarist
-Gender = Male
-BaseMoney = 24
-#-------------------------------
 [GUITARIST_F]
 Name = Guitarist
 Gender = Female
 BaseMoney = 24
-#-------------------------------
-[HARLEQUIN]
-Name = Harlequin
-Gender = Male
-BaseMoney = 32
 #-------------------------------
 [HIKER2]
 Name = Hiker
@@ -382,30 +332,17 @@ Name = Hiker
 Gender = Male
 BaseMoney = 32
 #-------------------------------
-[HOOPSTER]
-Name = Hoopster
-Gender = Male
-BaseMoney = 32
-#-------------------------------
 [IDOL]
 Name = Idol
 Gender = Female
 BaseMoney = 72
-#-------------------------------
-[INFIELDER]
-Name = Infielder
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[JANITOR]
-Name = Janitor
-Gender = Male
-BaseMoney = 24
+SpriteScale = 1
 #-------------------------------
 [JOGGER]
 Name = Jogger
 Gender = Male
 BaseMoney = 32
+SpriteScale = 1
 #-------------------------------
 [JUGGLER]
 Name = Juggler
@@ -421,6 +358,7 @@ BaseMoney = 120
 Name = Lady
 Gender = Female
 BaseMoney = 160
+SpriteScale = 1
 #-------------------------------
 [LADY]
 Name = Lady
@@ -432,6 +370,7 @@ SkillLevel = 72
 Name = Lass
 Gender = Female
 BaseMoney = 16
+SpriteScale = 1
 #-------------------------------
 [LASS3]
 Name = Lass
@@ -443,17 +382,7 @@ Name = Lass
 Gender = Female
 BaseMoney = 16
 #-------------------------------
-[LINEBACKER]
-Name = Linebacker
-Gender = Male
-BaseMoney = 32
-#-------------------------------
 [MAID2]
-Name = Maid
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[MAID]
 Name = Maid
 Gender = Female
 BaseMoney = 40
@@ -462,21 +391,12 @@ BaseMoney = 40
 Name = Medium
 Gender = Female
 BaseMoney = 48
+SpriteScale = 1
 #-------------------------------
 [NINJABOY]
 Name = Ninja Boy
 Gender = Male
 BaseMoney = 8
-#-------------------------------
-[NURSERYAIDE]
-Name = Nursery Aide
-Gender = Female
-BaseMoney = 48
-#-------------------------------
-[NURSE]
-Name = Nurse
-Gender = Female
-BaseMoney = 60
 #-------------------------------
 [PAINTER]
 Name = Painter
@@ -488,27 +408,12 @@ Name = Parasol Lady
 Gender = Female
 BaseMoney = 32
 #-------------------------------
-[PARASOLLADY]
-Name = Parasol Lady
-Gender = Female
-BaseMoney = 32
-#-------------------------------
 [PICNICKER]
 Name = Picnicker
 Gender = Female
 BaseMoney = 16
 #-------------------------------
-[PILOT]
-Name = Pilot
-Gender = Male
-BaseMoney = 40
-#-------------------------------
 [POKEFAN_F2]
-Name = Poké Fan
-Gender = Female
-BaseMoney = 64
-#-------------------------------
-[POKEFAN_F]
 Name = Poké Fan
 Gender = Female
 BaseMoney = 64
@@ -517,16 +422,13 @@ BaseMoney = 64
 Name = Poké Fan
 Gender = Male
 BaseMoney = 64
-#-------------------------------
-[POKEFAN_M]
-Name = Poké Fan
-Gender = Male
-BaseMoney = 64
+SpriteScale = 1
 #-------------------------------
 [POKEKID]
 Name = Poké Kid
 Gender = Female
 BaseMoney = 8
+SpriteScale = 1
 #-------------------------------
 [POKEMANIAC]
 Name = Poké Maniac
@@ -583,21 +485,6 @@ Name = Policeman
 Gender = Male
 BaseMoney = 40
 #-------------------------------
-[POLICEMAN]
-Name = Policeman
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[PRESCHOOLER_F]
-Name = Preschooler
-Gender = Female
-BaseMoney = 20
-#-------------------------------
-[PRESCHOOLER_M]
-Name = Preschooler
-Gender = Male
-BaseMoney = 20
-#-------------------------------
 [PROFESSOR]
 Name = Professor
 Gender = Male
@@ -627,18 +514,15 @@ BaseMoney = 32
 Name = Rancher
 Gender = Male
 BaseMoney = 40
+SpriteScale = 1
 #-------------------------------
 [REPORTER]
 Name = Reporter
 Gender = Female
 BaseMoney = 40
+SpriteScale = 1
 #-------------------------------
 [RICHBOY2]
-Name = Rich Boy
-Gender = Male
-BaseMoney = 160
-#-------------------------------
-[RICHBOY]
 Name = Rich Boy
 Gender = Male
 BaseMoney = 160
@@ -652,11 +536,13 @@ BaseMoney = 24
 Name = Roughneck
 Gender = Male
 BaseMoney = 24
+SpriteScale = 1
 #-------------------------------
 [ROUGHNECK]
 Name = Roughneck
 Gender = Male
 BaseMoney = 24
+SpriteScale = 1
 #-------------------------------
 [RUINMANIAC]
 Name = Ruin Maniac
@@ -678,25 +564,17 @@ Name = School Kid
 Gender = Female
 BaseMoney = 20
 #-------------------------------
-[SCHOOLKID_F]
-Name = School Kid
-Gender = Female
-BaseMoney = 20
-#-------------------------------
 [SCHOOLKID_M2]
 Name = School Kid
 Gender = Male
 BaseMoney = 20
+SpriteScale = 1
 #-------------------------------
 [SCHOOLKID_M3]
 Name = School Kid
 Gender = Male
 BaseMoney = 20
-#-------------------------------
-[SCHOOLKID_M]
-Name = School Kid
-Gender = Male
-BaseMoney = 20
+SpriteScale = 1
 #-------------------------------
 [SCIENTIST]
 Name = Scientist
@@ -722,6 +600,7 @@ BaseMoney = 32
 Name = Scientist
 Gender = Male
 BaseMoney = 32
+SpriteScale = 1
 #-------------------------------
 [SKIER_F2]
 Name = Skier
@@ -738,25 +617,10 @@ Name = Skier
 Gender = Male
 BaseMoney = 32
 #-------------------------------
-[SMASHER]
-Name = Smasher
-Gender = Female
-BaseMoney = 32
-#-------------------------------
 [SOCIALITE2]
 Name = Socialite
 Gender = Female
 BaseMoney = 200
-#-------------------------------
-[SOCIALITE]
-Name = Socialite
-Gender = Female
-BaseMoney = 200
-#-------------------------------
-[STRIKER]
-Name = Striker
-Gender = Male
-BaseMoney = 32
 #-------------------------------
 [SUPERNERD]
 Name = Super Nerd
@@ -851,27 +715,12 @@ Name = Veteran
 Gender = Male
 BaseMoney = 80
 #-------------------------------
-[VETERAN_F]
-Name = Veteran
-Gender = Female
-BaseMoney = 80
-#-------------------------------
 [WAITER2]
 Name = Waiter
 Gender = Male
 BaseMoney = 32
 #-------------------------------
-[WAITER]
-Name = Waiter
-Gender = Male
-BaseMoney = 32
-#-------------------------------
 [WAITRESS2]
-Name = Waitress
-Gender = Female
-BaseMoney = 32
-#-------------------------------
-[WAITRESS]
 Name = Waitress
 Gender = Female
 BaseMoney = 32
@@ -886,15 +735,11 @@ Name = Worker
 Gender = Male
 BaseMoney = 40
 #-------------------------------
-[WORKER]
-Name = Worker
-Gender = Male
-BaseMoney = 40
-#-------------------------------
 [YOUNGSTER2]
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+SpriteScale = 1
 #-------------------------------
 [YOUNGSTER3]
 Name = Youngster
@@ -905,16 +750,6 @@ BaseMoney = 16
 Name = Youngster
 Gender = Male
 BaseMoney = 16
-#-------------------------------
-[BACKERS_F]
-Name = Backers
-Gender = Unknown
-BaseMoney = 128
-#-------------------------------
-[BACKERS_M]
-Name = Backers
-Gender = Unknown
-BaseMoney = 128
 #-------------------------------
 [BELLEANDPA]
 Name = Belle & Pa
@@ -936,21 +771,19 @@ BaseMoney = 48
 Name = Double Team
 Gender = Unknown
 BaseMoney = 128
+SpriteScale = 1
 #-------------------------------
 [DOUBLETEAM]
 Name = Double Team
 Gender = Unknown
 BaseMoney = 128
-#-------------------------------
-[HOOLIGANS]
-Name = Hooligans
-Gender = Unknown
-BaseMoney = 128
+SpriteScale = 1
 #-------------------------------
 [INTERVIEWERS]
 Name = Interviewers
 Gender = Unknown
 BaseMoney = 128
+SpriteScale = 1
 #-------------------------------
 [SISANDBRO]
 Name = Sis and Bro
@@ -977,6 +810,7 @@ BaseMoney = 24
 Name = Young Couple
 Gender = Unknown
 BaseMoney = 128
+SpriteScale = 1
 #-------------------------------
 [YOUNGCOUPLE]
 Name = Young Couple
