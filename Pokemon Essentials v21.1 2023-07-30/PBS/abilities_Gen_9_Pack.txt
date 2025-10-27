@@ -175,7 +175,7 @@ Description = Resists all types when HP is full.
 [TERAFORMZERO]
 Name = Teraform Zero
 Description = Eliminates all weather and terrain.
-#-------------------------------
+#--------------NEW-ABILITIES-----------------
 [VEEGUARD]
 Name = Vee Guard
 Description = Resists all types.
@@ -183,3 +183,7 @@ Description = Resists all types.
 [SHRAPNEL]
 Name = Shrapnel
 Description = Scatters spikes when hit by physical moves.
+#-------------------------------
+[BIGBOSS]
+Name = Big Boss
+Description = Boosts the power of its moves with every fainted ally.

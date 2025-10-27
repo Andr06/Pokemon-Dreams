@@ -111,6 +111,7 @@ class VPM_PokemonPartyHud < Component
         hpzone = 2 if pokemon.hp <= (pokemon.totalhp/4).floor
         hprect = Rect.new(0, hpzone * 4, w, 4)
         @sprites["overlay"].bitmap.blt(spacing + (Graphics.width/8) + 18, (Graphics.height / 2) - 100, @hp_bar_bmp, hprect)
+        else
       end
       # EXP
       if pokemon.exp > 0

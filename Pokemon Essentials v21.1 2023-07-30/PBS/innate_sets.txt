@@ -150,10 +150,10 @@ Innates = FORESTSVENGEANCE
 Innates = FORESTSVENGEANCE
 #----------------------------------------
 [CUTIEFLY]
-Innates = SILKYSNARE
+Innates = PASTELVEIL
 #----------------------------------------
 [RIBOMBEE]
-Innates = SILKYSNARE
+Innates = PASTELVEIL
 #----------------------------------------
 [COMBEE]
 Innates = TRIFORCE
@@ -201,10 +201,118 @@ Innates = MERCILESS
 Innates = MERCILESS
 #----------------------------------------
 [DEERLING]
-Innates = MERCILESS
+Innates = FLOWERGIFT
 #----------------------------------------
 [SAWSBUCK]
-Innates = MERCILESS
+Innates = FLOWERGIFT
+#----------------------------------------
+[FLABEBE]
+Innates = NATURALCURE
+#----------------------------------------
+[FLOETTE]
+Innates = NATURALCURE
+#----------------------------------------
+[FLORGES]
+Innates = NATURALCURE
+#----------------------------------------
+[CHERUBI]
+Innates = FLOWERGIFT
+#----------------------------------------
+[CHERRIM]
+Innates = FLOWERGIFT
+#----------------------------------------
+[VENONAT]
+Innates = TOXICDEBRIS
+#----------------------------------------
+[VENOMOTH]
+Innates = TOXICDEBRIS
+#----------------------------------------
+[DUCKLETT]
+Innates = SEADIVER
+#----------------------------------------
+[SWANNA]
+Innates = SWANSGRACE
+#----------------------------------------
+[TADBULB]
+Innates = TRANSISTOR
+#----------------------------------------
+[BELLIBOLT]
+Innates = ELECTROMORPHOSIS
+#----------------------------------------
+[CHEWTLE]
+Innates = STRONGJAW
+#----------------------------------------
+[DREDNAW]
+Innates = STRONGJAW
+#----------------------------------------
+[SINISTEA]
+Innates = FLAMEBODY
+#----------------------------------------
+[POLTEAGEIST]
+Innates = FLAMEBODY
+#----------------------------------------
+[KARRABLAST]
+Innates = QUICKDRAW
+#----------------------------------------
+[KARRABLAST_1]
+Innates = QUICKDRAW
+#----------------------------------------
+[ESCAVALIER]
+Innates = SHARPNESS
+#----------------------------------------
+[ESCAVALIER_1]
+Innates = SHARPNESS
+#----------------------------------------
+[MISDREAVUS]
+Innates = LEVITATE
+#----------------------------------------
+[MISMAGIUS]
+Innates = LEVITATE
+#----------------------------------------
+[MURKROW]
+Innates = SHALLOWNESS
+#----------------------------------------
+[HONCHKROW]
+Innates = BIGBOSS
+#----------------------------------------
+[RIOLU]
+Innates = EXTREMEFOCUS
+#----------------------------------------
+[LUCARIO]
+Innates = AURAMASTER
+#----------------------------------------
+[SPINARAK]
+Innates = SILKYSNARE
+#----------------------------------------
+[ARIADOS]
+Innates = SILKYSNARE
+#----------------------------------------
+[TURTWIG]
+Innates = SELFSUFFICIENT
+#----------------------------------------
+[GROTLE]
+Innates = SELFSUFFICIENT
+#----------------------------------------
+[TORTERRA]
+Innates = SELFSUFFICIENT
+#----------------------------------------
+[FENNEKIN]
+Innates = FLASHFIRE
+#----------------------------------------
+[BRAIXEN]
+Innates = MAGICGUARD
+#----------------------------------------
+[DELPHOX]
+Innates = MAGICGUARD
+#----------------------------------------
+[TOTODILE]
+Innates = STRONGJAW
+#----------------------------------------
+[CROCONAW]
+Innates = STRONGJAW
+#----------------------------------------
+[FERALIGATR]
+Innates = STRONGJAW
 #----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY

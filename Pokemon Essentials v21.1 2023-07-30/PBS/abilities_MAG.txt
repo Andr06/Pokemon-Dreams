@@ -154,3 +154,7 @@ Description = Moves hit five times.
 [DUALHEADED]
 Name = Dual Headed
 Description = Each head attacks.
+#-------------------------------
+[SWANSGRACE]
+Name = Swan's Grace
+Description = Doubles the power of Flying-type moves.

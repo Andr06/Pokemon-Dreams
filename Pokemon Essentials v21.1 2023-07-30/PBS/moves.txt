@@ -1136,7 +1136,7 @@ Description = The user charges at its foe, surrounding itself with lightning. It
 Name = Volt Tackle
 Type = ELECTRIC
 Category = Physical
-Power = 120
+Power = 140
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -1225,7 +1225,7 @@ Description = A strong electric blast is loosed at the target. It may also leave
 Name = Wild Charge
 Type = ELECTRIC
 Category = Physical
-Power = 90
+Power = 120
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -1575,7 +1575,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpAtk1
-Flags = CanProtect,CanMirrorMove,Bomb
+Flags = CanProtect,CanMirrorMove,Bomb,Pulse
 EffectChance = 30
 Description = The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.
 #-------------------------------
@@ -1864,7 +1864,7 @@ Accuracy = 70
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
-Flags = CanProtect,CanMirrorMove,Bomb
+Flags = CanProtect,CanMirrorMove,Bomb,Pulse
 EffectChance = 10
 Description = The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.
 #-------------------------------
@@ -8060,7 +8060,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Pulse
 EffectChance = 10
 Description = The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.
 #-------------------------------
@@ -8750,3 +8750,27 @@ Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove,Bomb
 Description = The user forcefully shoots mud at the target. Two to five piles of mud are shot in rapid succession.
+#-------------------------------
+[DUALLANCE]
+Name = Dual Lance
+Type = STEEL
+Category = Physical
+Power = 55
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanMirrorMove,Slicing
+Description = The user attacks its target by hitting it with two lances twice. Bypasses Protect.
+#-------------------------------
+[SHRIEK]
+Name = Shriek
+Type = GHOST
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user lets loose a horribly ghastly cry with the power to inflict damage.

@@ -378,6 +378,24 @@ class Battle::Move::HitTenTimes < Battle::Move
   end
 end
 
+class Battle::Move::FlockHit < Battle::Move
+  def multiHitMove?; return true; end
+
+  def pbNumHits(user, targets)
+    return 4 + @battle.pbRandom(7) if user.hasActiveItem?(:LOADEDDICE)
+    return 10
+  end
+
+  def successCheckPerHit?
+    return @accCheckPerHit
+  end
+
+  def pbOnStartUse(user, targets)
+    @battle.pbDisplay(_INTL("{1} ordered its flock to attack!", user.pbThis))
+    @accCheckPerHit = !user.hasActiveAbility?(:SKILLLINK) && !user.hasActiveItem?(:LOADEDDICE)
+  end
+end
+
 #===============================================================================
 # Axe Kick
 #===============================================================================

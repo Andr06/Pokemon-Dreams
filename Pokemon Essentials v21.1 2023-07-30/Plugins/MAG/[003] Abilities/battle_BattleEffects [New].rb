@@ -793,6 +793,8 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:SKYFORCE,
 	}
 )
 
+Battle::AbilityEffects::DamageCalcFromUser.copy(:SKYFORCE, :SWANSGRACE)
+
 #===============================================================================
 	# Under Weather
 	# Badly Poison the user in weather. Doubles damage if badly poison.

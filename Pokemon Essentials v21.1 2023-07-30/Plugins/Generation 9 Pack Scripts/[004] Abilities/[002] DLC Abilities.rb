@@ -37,7 +37,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:HOSPITALITY,
       next if !b.canHeal?
       amt = (b.totalhp / 4).floor
       b.pbRecoverHP(amt)
-      battle.pbDisplay(_INTL("{1} drank down all the matcha that {2} made!", b.pbThis, battler.pbThis(true)))
+      battle.pbDisplay(_INTL("{1} was rejuvenated thanks to {2}!", b.pbThis, battler.pbThis(true)))
     end
     battle.pbHideAbilitySplash(battler)
   }

@@ -51,6 +51,28 @@ Battle::AbilityEffects::OnSwitchIn.add(:SUPREMEOVERLORD,
 )
 
 #===============================================================================
+# BIG BOSS
+#===============================================================================
+Battle::AbilityEffects::DamageCalcFromUser.add(:BIGBOSS,
+  proc { |ability, user, target, move, mults, baseDmg, type|
+    bonus = user.effects[PBEffects::SupremeOverlord]
+    next if bonus <= 0
+    mults[:power_multiplier] *= (1 + (0.1 * bonus))
+  }
+)
+
+Battle::AbilityEffects::OnSwitchIn.add(:BIGBOSS,
+  proc { |ability, battler, battle, switch_in|
+    numFainted = [5, battler.num_fainted_allies].min
+    next if numFainted <= 0
+    battle.pbShowAbilitySplash(battler)
+    battle.pbDisplay(_INTL("{1} will take care of things personally!", battler.pbThis))
+    battler.effects[PBEffects::SupremeOverlord] = numFainted
+    battle.pbHideAbilitySplash(battler)
+  }
+)
+
+#===============================================================================
 # Mycelium Might
 #===============================================================================
 Battle::AbilityEffects::PriorityBracketChange.add(:MYCELIUMMIGHT,

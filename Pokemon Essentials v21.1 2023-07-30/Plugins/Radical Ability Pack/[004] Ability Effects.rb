@@ -30,12 +30,38 @@ Battle::AbilityEffects::DamageCalcFromUser.add(:BULLRUSH,
   }
 )
 
-Battle::AbilityEffects::SpeedCalc.add(:QUICKFEET,
+Battle::AbilityEffects::SpeedCalc.add(:BULLRUSH,
   proc { |ability, battler, mult|
     next mult * 1.5 if battler.turnCount <= 1
   }
 )
 
+Battle::AbilityEffects::SpeedCalc.add(:QUICKFEET,
+  proc { |ability, battler, mult|
+    next mult * 1.5 if battler.turnCount <= 1
+  }
+)
+Battle::AbilityEffects::OnSwitchIn.add(:DEERCROSSING,
+  proc { |ability, battler, battle, switch_in|
+    battle.pbShowAbilitySplash(battler)
+    battle.pbDisplay(_INTL("{1} is charging across the field!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+  }
+)
+
+Battle::AbilityEffects::SpeedCalc.add(:DEERCROSSING,
+  proc { |ability, battler, mult|
+    next mult * 1.5 if battler.turnCount <= 1
+  }
+)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:DEERCROSSING,
+  proc { |ability, user, target, move, mults, power, type|
+    if move.physicalMove? && user.turnCount <= 1
+      mults[:attack_multiplier] *= 1.2
+    end
+  }
+)
 #================================================================
 # Feline Prowess
 # Doubles Special Attack stat.

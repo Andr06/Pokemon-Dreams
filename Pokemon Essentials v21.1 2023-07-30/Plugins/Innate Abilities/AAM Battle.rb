@@ -40,3 +40,5 @@ class Battle
   puts "[pbShowAbilitySplash] After original call: $aamName is: #{$aamName}, $aamName2 is: #{$aamName2}"
   end
 end
+  
+  

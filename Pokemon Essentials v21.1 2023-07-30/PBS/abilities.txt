@@ -1146,3 +1146,15 @@ Description = This Pokémon's Electric type attacks hit ground types.
 [CHARGEDUP]
 Name = Charged Up
 Description = This Pokémon is charged upon entry.
+#-------------------------------
+[FINALBLOW]
+Name = Final Blow
+Description = Gives priority to damaging moves when the opponent has 25% HP.
+#-------------------------------
+[AURAMASTER]
+Name = AURAMASTER
+Description = Powers up aura and pulse moves.
+#-------------------------------
+[AMBUSH]
+Name = Ambush
+Description = Dark-type moves gain priority.

@@ -330,7 +330,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = LowerUserDefSpDef1
-Flags = CanProtect,CanMirrorMove,CannotMetronome
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Pulse
 EffectChance = 100
 Description = The user shoots its own armor out as blazing projectiles. This lowers the user’s Defense and Sp. Def.
 #-------------------------------
@@ -1127,3 +1127,15 @@ FunctionCode = BadPoisonTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 50
 Description = Wraps the target in a toxic, corrosive chain. This may also leave the target badly poisoned.
+#-------------------------------
+[BOSSSORDERS]
+Name = Boss's Orders
+Type = DARK
+Category = Physical
+Power = 16
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlockHit
+Flags = CanProtect,CanMirrorMove,CannotMetronome,Slicing
+Description = The user order's its flock to perform a combo attack that hits one to ten times in a row.

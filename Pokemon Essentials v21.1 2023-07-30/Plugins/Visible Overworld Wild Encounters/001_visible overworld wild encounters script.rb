@@ -261,6 +261,7 @@ module VisibleEncounterSettings
   Enc_Movements = [                  # default
     [:shiny?, true, 3, 4, nil],    # [:shiny?, true, 3, 4, 3] means that shiny encounters will be faster
     [:species, :SLOWPOKE, 1, 1, nil],
+    [:species, :TURTWIG, 1, 1, nil],
     [:species, :NOSEPASS, 1, 1, nil], # [:species, :SLOWPOKE, 1, 1, nil] means that slowpoke is very slow. It might still want to run random or to the player.
     [:nature, :NAUGHTY, nil, 4, 3] # [:nature, :NAUGHTY, nil, 4, 3] means pokemon with a naughty nature will run to the player and be faster
   ]

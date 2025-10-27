@@ -54,3 +54,7 @@ Description = Gives +1 priority to Fire moves at full HP.
 [SAGEPOWER]
 Name = Sage Power
 Description = Ups SpAtk by 50% but only uses 1st picked move.
+#-----------------------------------------
+[DEERCROSSING]
+Name = Deer Crossing
+Description = Boosts power by 20% & Speed by 50% in first turn.
