@@ -314,6 +314,12 @@ Innates = STRONGJAW
 [FERALIGATR]
 Innates = STRONGJAW
 #----------------------------------------
+[ZORUA]
+Innates = ILLUSION
+#----------------------------------------
+[ZOROARK]
+Innates = ILLUSION
+#----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY
 #----------------------------------------
