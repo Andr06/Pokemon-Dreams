@@ -1,0 +1,11 @@
+module Settings
+  # add your id of kicking moves and bone moves here.
+  KICKING_MOVES = [
+    :HIGHJUMPKICK, :JUMPKICK, :THUNDEROUSKICK, :ROLLINGKICK, :DOUBLEKICK,
+    :TRIPLEKICK, :LOWKICK, :BLAZEKICK, :TROPKICK, :MEGAKICK, :AXEKICK
+  ]
+
+  BONE_MOVES = [
+    :SHADOWBONE, :BONECLUB, :BONEMERANG, :BONERUSH
+  ]
+end

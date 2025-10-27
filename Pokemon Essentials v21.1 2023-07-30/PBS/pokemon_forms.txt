@@ -600,6 +600,14 @@ Weight = 33.0
 Pokedex = Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.
 Generation = 6
 #-------------------------------
+[LEDIAN,1]
+FormName = Hero Form
+Types = BUG,FIGHTING
+BaseStats = 95,155,90,85,35,110
+BaseExp = 228
+Abilities = ZEROTOHEROO
+Category = Hero
+#-------------------------------
 [PICHU,2]
 FormName = Spiky-Eared
 Generation = 4
@@ -1322,6 +1330,18 @@ Weight = 32.0
 Color = White
 Generation = 6
 #-------------------------------
+[SEWADDLE,1]
+FormName = Autumn Form
+Color = Red
+#-------------------------------
+[SWADLOON,1]
+FormName = Autumn Form
+Color = Red
+#-------------------------------
+[LEAVANNY,1]
+FormName = Autumn Form
+Color = Red
+#-------------------------------
 [BASCULIN,1]
 FormName = Blue-Striped
 Abilities = ROCKHEAD,ADAPTABILITY
@@ -1413,6 +1433,23 @@ FormName = Autumn Form
 #-------------------------------
 [SAWSBUCK,3]
 FormName = Winter Form
+#-------------------------------
+[KARRABLAST,1]
+Evolutions = ESCAVALIER,HasInParty,MIMIKYU
+#-------------------------------
+[ESCAVALIER,1]
+FormName = Amwestian
+Types = BUG,DARK
+BaseStats = 60,135,55,85,65,95
+Abilities = SHARPNESS, PERISHBODY
+HiddenAbilities = DARKHOLD
+Moves = 0,NIGHTSLASH,0,SACREDSWORD,1,PECK,1,LEER,4,FURYCUTTER,8,ENDURE,12,FALSESWIPE,16,ACIDSPRAY,20,HEADBUTT,24,FLAIL,28,SCARYFACE,32,XSCISSOR,36,SWORDSDANCE,40,TAKEDOWN,44,BUGBUZZ,48,DOUBLEEDGE,52,BITTERBLADE
+TutorMoves = AERIALACE,AGILITY,ATTRACT,BRUTALSWING,BUGBITE,BUGBUZZ,NIGHTSLASH,CAPTIVATE,CLOSECOMBAT,CONFIDE,CUT,DOUBLETEAM,DRILLRUN,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FOCUSBLAST,FRUSTRATION,GIGADRAIN,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,INFESTATION,IRONDEFENSE,IRONHEAD,KNOCKOFF,LASERFOCUS,MEGAHORN,MIMIC,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,RAZORSHELL,REST,RETURN,REVENGE,REVERSAL,ROCKSMASH,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SIGNALBEAM,SLEEPTALK,SMARTSTRIKE,SNORE,STEELBEAM,STRUGGLEBUG,SUBSTITUTE,SWAGGER,SWORDSDANCE,TAUNT,TOXIC,XSCISSOR
+Height = 1.0
+Weight = 15.0
+Color = Brown
+Pokedex = Escavalier somehow survived seeing Mimikyu without its rag. It is in a state between life and death, looking for souls to harvest. Art by @Barbie_E4
+Generation = 5
 #-------------------------------
 [STUNFISK,1]
 FormName = Galarian

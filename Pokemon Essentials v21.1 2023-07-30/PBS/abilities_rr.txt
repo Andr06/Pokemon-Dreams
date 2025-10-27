@@ -1,0 +1,56 @@
+#-----------------------------------------
+[BADCOMPANY]
+Name = Bad Company
+Description = Stops self-lowering stats and prevents recoil.
+#-----------------------------------------
+[FATALPRECISION]
+Name = Fatal Precision
+Description = Super effective moves can't miss & boosted by 20%.
+#-----------------------------------------
+[BULLRUSH]
+Name = Bull Rush 
+Description = Boosts power by 20% & Speed by 50% in first turn.
+#-----------------------------------------
+[FELINEPROWESS]
+Name = Feline Prowess
+Description = Doubles Special Attack stat.
+#-----------------------------------------
+[ORAORAORAORA]
+Name = ORAORAORAORA!
+Description = Punch moves hit a second time for 50% damage.
+#-----------------------------------------
+[PARASITICWASTE]
+Name = Parasitic Waste 
+Description = Attacks that poison also drain.
+#-----------------------------------------
+[PHOENIXDOWN]
+Name = Phoenix Down 
+Description = Revives to half health on first faint.
+#-----------------------------------------
+[MOUNTAINEER]
+Name = Mountaineer 
+Description = Immune to Rock attacks and Stealth Rocks.
+#-----------------------------------------
+[BONEZONE]
+Name = Bone Zone
+Description = Bone moves ignore immunity and resistances.
+#-----------------------------------------
+[SELFSUFFICIENT]
+Name = Self Sufficient 
+Description = Recover 1/16 HP at end of turn.
+#-----------------------------------------
+[FROZENMIST]
+Name = Frozen Mist 
+Description = Stops add effects and entry hazard damage.
+#-----------------------------------------
+[STRIKER]
+Name = Striker 
+Description = Boosts kicking move by 30%.
+#-----------------------------------------
+[BLAZINGSOUL]
+Name = Blazing Soul
+Description = Gives +1 priority to Fire moves at full HP.
+#-----------------------------------------
+[SAGEPOWER]
+Name = Sage Power
+Description = Ups SpAtk by 50% but only uses 1st picked move.

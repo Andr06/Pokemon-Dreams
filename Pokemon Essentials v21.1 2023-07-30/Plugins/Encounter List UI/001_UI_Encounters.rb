@@ -37,7 +37,10 @@ USER_DEFINED_NAMES = {
 :RockSmash => "Rock Smash",
 :HeadbuttLow => "Headbutt (rare)",
 :HeadbuttHigh => "Headbutt (common)",
-:BugContest => "Bug Contest"
+:BugContest => "Bug Contest",
+:OverworldLand => "Overworld (Day)",
+:OverworldLandNight => "Overworld (Night)",
+:OverworldWater => "Over Water",
 }
 
 # Remove the '#' from this line to use default encounter type names

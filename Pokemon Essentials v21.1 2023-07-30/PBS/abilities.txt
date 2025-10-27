@@ -1070,3 +1070,79 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#----------------NEW ABILITIES---------------
+[DARKHOLD]
+Name = Darkhold
+Description = Powers up Dark-type moves.
+#-------------------------------
+[EVERGREEN]
+Name = Evergreen.
+Description = Raises Special Defense if hit by a Ice-type move.
+#-------------------------------
+[LIQUIDBODY]
+Name = Liquid Body
+Description = Contact with the Pokémon may soak the attacker.
+#-------------------------------
+[NOXIOUSBODY]
+Name = Noxious Body
+Description = Contact with the Pokémon may badly poison the attacker.
+#-------------------------------
+[ICYBARBS]
+Name = Icy Barbs
+Description = Inflicts damage to the Pokémon on contact. Contact with the Pokémon may freeze the attacker.
+#-------------------------------
+[COCOONING]
+Name = Cocooning
+Description = Its Defense stat is gradually boosted.
+#-------------------------------
+[AMPLIFIER]
+Name = Amplifier
+Description = Powers up own sound moves. 
+#-------------------------------
+[TAKETHELEAD]
+Name = Take the Lead
+Description = Gives priority to a status move.
+#-------------------------------
+[POISONWING]
+Name = Poison Wing
+Description = May poison targets when a Pokémon uses wind moves.
+#-------------------------------
+[STARPOWER]
+Name = Star Power
+Description = Raises the Pokémon's Attack stat.
+#-------------------------------
+[BUCKTOOTH]
+Name = Bucktooth
+Description = Boosts the power of biting moves.
+#-------------------------------
+[LEAFYCLOAK]
+Name = Leafy Cloak
+Description = Halves the damage taken from all moves.
+#-------------------------------
+[SILKYSNARE]
+Name = Silky Snare
+Description = Lowers the foe's Speed stat.
+#-------------------------------
+[TOXICBOUQUET]
+Name = Toxic Bouquet
+Description = May badly poison targets when a Pokémon uses a moves.
+#-------------------------------
+[CAUTIOUSENTRANCE]
+Name = Cautious Entrance
+Description = Protects itself on switch in. Only works once per battle
+#-------------------------------
+[FORESTSVENGEANCE]
+Name = Forest's Vengeance
+Description = Puts a grudge on the attacker landing the finishing hit.
+#-------------------------------
+[BEEATTACK]
+Name = Bee Attack
+Description = Contact with the Pokémon may infest the attacker.
+#-------------------------------
+[FLOORSURGE]
+Name = Floor Surge
+Description = This Pokémon's Electric type attacks hit ground types.
+#-------------------------------
+[CHARGEDUP]
+Name = Charged Up
+Description = This Pokémon is charged upon entry.

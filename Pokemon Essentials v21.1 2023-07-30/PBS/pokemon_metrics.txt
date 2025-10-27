@@ -4687,3 +4687,8 @@ ShadowSprite = 2,4,1
 BackSprite = 0,60
 FrontSprite = 3,11
 ShadowSprite = 2,-2,8
+#-------------------------------
+[CAMERUPT,1,female]
+BackSprite = 7,38
+FrontSprite = 0,17
+ShadowSprite = 2,1,0

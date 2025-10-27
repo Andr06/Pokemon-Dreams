@@ -520,6 +520,23 @@ Battle::AbilityEffects::OnSwitchIn.add(:DAUNTLESSSHIELD,
 )
 
 #===============================================================================
+# Cautious Entrance
+#===============================================================================
+# Adds once-per-battle check.
+#-------------------------------------------------------------------------------
+Battle::AbilityEffects::OnSwitchIn.add(:CAUTIOUSENTRANCE,
+  proc { |ability, battler, battle, switch_in|
+    next if battler.ability_triggered?
+    battle.pbShowAbilitySplash(battler)
+    battler.effects[PBEffects::Protect] = true
+    battle.pbDisplay(_INTL("{1} protected itself this turn!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+    battle.pbSetAbilityTrigger(battler)
+  }
+)
+
+
+#===============================================================================
 # Intrepid Sword
 #===============================================================================
 # Adds once-per-battle check.

@@ -958,3 +958,9 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
+#-------------------------------
+[PROFESSOR_CEDRIC]
+Name = Professor
+Gender = Male
+BaseMoney = 100
+#-------------------------------

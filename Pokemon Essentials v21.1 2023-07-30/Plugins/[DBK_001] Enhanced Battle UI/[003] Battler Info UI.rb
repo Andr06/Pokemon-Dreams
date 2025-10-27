@@ -150,22 +150,114 @@ class Battle::Scene
     end
     # Shininess
     imagePos.push(["Graphics/UI/shiny", xpos + 142, ypos + 102]) if poke.shiny?
-    #---------------------------------------------------------------------------
-    # Battler info for player-owned Pokemon.
-    if battler.pbOwnedByPlayer?
-      imagePos.push(
-        [@path + "info_owner", xpos + 36, iconY + 10, 0, 0, 128, 20],
-        [@path + "info_cursor", panelX, 62, 0, 0, 218, 26],
-        [@path + "info_cursor", panelX, 86, 0, 0, 218, 26]
-      )
+
+#---------------------------------------------------------------------------
+# Battler info for player-owned Pokémon (final spacing)
+#---------------------------------------------------------------------------
+if battler.pbOwnedByPlayer?
+  # Draw three info bars, lifted and spaced by +1px each
+  imagePos.push(
+    [@path + "info_owner", xpos + 36, iconY + 10, 0, 0, 128, 20],
+    [@path + "info_cursor", panelX, 49, 0, 0, 218, 24],   # Abil.
+    [@path + "info_cursor", panelX, 72, 0, 0, 218, 24],   # Pass.
+    [@path + "info_cursor", panelX, 95, 0, 0, 218, 24]    # Item
+  )
+
+  # Pokémon’s base (non-innate) ability
+  base_ability_name = battler.pokemon&.ability_id ? GameData::Ability.get(battler.pokemon.ability_id).name : battler.abilityName
+
+  # Text placement (raised evenly)
+  textPos.push(
+    [_INTL("Abil."), xpos + 270, ypos + 32, :center, BASE_LIGHT, SHADOW_LIGHT],
+    [_INTL("Pass."), xpos + 270, ypos + 55, :center, BASE_LIGHT, SHADOW_LIGHT],
+    [_INTL("Item"), xpos + 270, ypos + 78, :center, BASE_LIGHT, SHADOW_LIGHT],
+    [_INTL("{1}", base_ability_name), xpos + 372, ypos + 33, :center, BASE_DARK, SHADOW_DARK],
+    [_INTL("{1}", battler.itemName), xpos + 372, ypos + 79, :center, BASE_DARK, SHADOW_DARK],
+    [sprintf("%d/%d", battler.hp, battler.totalhp), iconX + 74, iconY + 12, :center, BASE_LIGHT, SHADOW_LIGHT]
+  )
+
+  # Display Passive Abilities (from Innate Abilities Plugin)
+  if battler.pokemon && battler.pokemon.respond_to?(:active_innates)
+    poke = battler.pokemon
+    poke.assign_innate_abilities if poke.active_innates.nil? || poke.active_innates.empty?
+    active_innates = poke.active_innates.compact
+    innate_names = active_innates.map { |id| GameData::Innate.try_get(id)&.name }.compact
+    innate_names.reject! { |n| n == base_ability_name }
+
+    unless innate_names.empty?
       textPos.push(
-        [_INTL("Abil."), xpos + 272, ypos + 44, :center, BASE_LIGHT, SHADOW_LIGHT],
-        [_INTL("Item"), xpos + 272, ypos + 68, :center, BASE_LIGHT, SHADOW_LIGHT],
-        [_INTL("{1}", battler.abilityName), xpos + 376, ypos + 44, :center, BASE_DARK, SHADOW_DARK],
-        [_INTL("{1}", battler.itemName), xpos + 376, ypos + 68, :center, BASE_DARK, SHADOW_DARK],
-        [sprintf("%d/%d", battler.hp, battler.totalhp), iconX + 74, iconY + 12, :center, BASE_LIGHT, SHADOW_LIGHT]
+        [_INTL("{1}", innate_names.join(", ")), xpos + 372, ypos + 56, :center, BASE_DARK, SHADOW_DARK]
       )
     end
+  end
+end
+
+#---------------------------------------------------------------------------
+# Battler info for opposing Pokémon (conditional reveal + perfect spacing)
+#---------------------------------------------------------------------------
+if !battler.pbOwnedByPlayer?
+  info_y = 49
+  spacing = 23
+
+  # Pokémon’s base ability (only if revealed)
+  base_ability_name = nil
+  if battler.abilityActive? && !battler.ability.nil? && battler.ability != :NONE
+    base_ability_name = GameData::Ability.get(battler.ability).name
+  end
+
+  # Determine which info to show
+  show_ability = !base_ability_name.nil?
+  show_item    = battler.itemActive? && !battler.item.nil? && battler.item != :NONE
+  show_passive = false
+
+  if battler.pokemon && battler.pokemon.respond_to?(:active_innates)
+    poke = battler.pokemon
+    poke.assign_innate_abilities if poke.active_innates.nil? || poke.active_innates.empty?
+    active_innates = poke.active_innates.compact
+    innate_names = active_innates.map { |id| GameData::Innate.try_get(id)&.name }.compact
+
+    # Check for visible innate safely
+    if (!innate_names.empty?) && (battler.respond_to?(:innateActive?) && battler.innateActive?)
+      show_passive = true
+    end
+  end
+
+  # Draw background if any line will show
+  if show_ability || show_passive || show_item
+    imagePos.push([@path + "info_owner", xpos + 36, iconY + 10, 0, 0, 128, 20])
+  end
+
+  # Dynamically draw each visible row
+  if show_ability
+    imagePos.push([@path + "info_cursor", panelX, info_y, 0, 0, 218, 24])
+    textPos.push(
+      [_INTL("Abil."), xpos + 270, ypos + (info_y - 16), :center, BASE_LIGHT, SHADOW_LIGHT],
+      [_INTL("{1}", base_ability_name), xpos + 372, ypos + (info_y - 16), :center, BASE_DARK, SHADOW_DARK]
+    )
+    info_y += spacing
+  end
+
+  if show_passive
+    imagePos.push([@path + "info_cursor", panelX, info_y, 0, 0, 218, 24])
+    innate_names = battler.pokemon.active_innates.map { |id| GameData::Innate.try_get(id)&.name }.compact rescue []
+    textPos.push(
+      [_INTL("Pass."), xpos + 270, ypos + (info_y - 16), :center, BASE_LIGHT, SHADOW_LIGHT],
+      [_INTL("{1}", innate_names.join(", ")), xpos + 372, ypos + (info_y - 16), :center, BASE_DARK, SHADOW_DARK]
+    )
+    info_y += spacing
+  end
+
+  if show_item
+    imagePos.push([@path + "info_cursor", panelX, info_y, 0, 0, 218, 24])
+    textPos.push(
+      [_INTL("Item"), xpos + 270, ypos + (info_y - 16), :center, BASE_LIGHT, SHADOW_LIGHT],
+      [_INTL("{1}", battler.itemName), xpos + 372, ypos + (info_y - 16), :center, BASE_DARK, SHADOW_DARK]
+    )
+  end
+end
+
+
+
     #---------------------------------------------------------------------------
     pbAddWildIconDisplay(xpos, ypos, battler, imagePos)
     pbAddStatsDisplay(xpos, ypos, battler, imagePos, textPos)
@@ -382,6 +474,7 @@ class Battle::Scene
   #-----------------------------------------------------------------------------
   def pbGetDisplayEffects(battler)
     display_effects = []
+
     #---------------------------------------------------------------------------
     # Damage gates for scripted battles.
     if battler.damageThreshold

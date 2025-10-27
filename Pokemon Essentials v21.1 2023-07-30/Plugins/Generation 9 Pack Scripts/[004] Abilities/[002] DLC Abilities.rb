@@ -69,6 +69,7 @@ Battle::AbilityEffects::OnDealingHit.add(:TOXICCHAIN,
   }
 )
 
+Battle::AbilityEffects::OnDealingHit.copy(:TOXICCHAIN, :TOXICBOUQUET)
 #===============================================================================
 # Mind's Eye
 #===============================================================================
@@ -144,6 +145,25 @@ Battle::AbilityEffects::OnMoveSuccessCheck.add(:TERASHELL,
     next if !target.damageState.terashell
     battle.pbShowAbilitySplash(target)
     battle.pbDisplay(_INTL("{1} made its shell gleam! It's distorting type matchups!", target.pbThis))
+    battle.pbHideAbilitySplash(target)
+  }
+)
+#VEE GUARD
+Battle::AbilityEffects::ModifyTypeEffectiveness.add(:VEEGUARD,
+  proc { |ability, user, target, move, battle, effectiveness|
+    next if !move.damagingMove?
+    next if user.hasMoldBreaker?
+    next if effectiveness < Effectiveness::NORMAL_EFFECTIVE_MULTIPLIER
+    target.damageState.terashell = true
+    next Effectiveness::NOT_VERY_EFFECTIVE_MULTIPLIER
+  }
+)
+
+Battle::AbilityEffects::OnMoveSuccessCheck.add(:VEEGUARD,
+  proc { |ability, user, target, move, battle|
+    next if !target.damageState.terashell
+    battle.pbShowAbilitySplash(target)
+    battle.pbDisplay(_INTL("{1} temporarily changed its type and adapted to the type matchup!", target.pbThis))
     battle.pbHideAbilitySplash(target)
   }
 )

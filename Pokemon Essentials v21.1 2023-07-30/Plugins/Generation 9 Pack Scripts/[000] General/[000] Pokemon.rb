@@ -596,6 +596,16 @@ MultipleForms.register(:PALAFIN, {
 })
 
 #-------------------------------------------------------------------------------
+# Ledian - Zero Form.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:LEDIAN, {
+  "getFormOnLeavingBattle" => proc { |pkmn, battle, usedInBattle, endBattle|
+    next 0 if endBattle
+  }
+})
+
+
+#-------------------------------------------------------------------------------
 # Tatsugiri - Multiple Forms.
 #-------------------------------------------------------------------------------
 MultipleForms.register(:TATSUGIRI, {

@@ -1,0 +1,218 @@
+#----------------------------------------
+[EEVEE]
+Innates = VEEGUARD
+#----------------------------------------
+[VAPOREON]
+Innates = WATERVEIL
+#----------------------------------------
+[JOLTEON]
+Innates = GALVANIZE
+#----------------------------------------
+[FLAREON]
+Innates = FLUFFY
+#----------------------------------------
+[ESPEON]
+Innates = MAGICGUARD
+#----------------------------------------
+[UMBREON]
+Innates = TOXICCHAIN
+#----------------------------------------
+[LEAFEON]
+Innates = CHLOROPLAST
+#----------------------------------------
+[GLACEON]
+Innates = ICYBARBS
+#----------------------------------------
+[SYLVEON]
+Innates = DAZZLING
+#----------------------------------------
+[SENTRET]
+Innates = RATTLED
+#----------------------------------------
+[FURRET]
+Innates = FURCOAT
+#----------------------------------------
+[FLETCHLING]
+Innates = HUSTLE	
+#----------------------------------------
+[FLETCHINDER]
+Innates = HUSTLE
+#----------------------------------------
+[TALONFLAME]
+Innates = TOUGHCLAWS
+#----------------------------------------
+[BUNNELBY]
+Innates = ROCKYPAYLOAD
+#----------------------------------------
+[DIGGERSBY]
+Innates = ROCKYPAYLOAD
+#----------------------------------------
+[SKWOVET]
+Innates = CHEEKPOUCH
+#----------------------------------------
+[GREEDENT]
+Innates = CHEEKPOUCH
+#----------------------------------------
+[HOOTHOOT]
+Innates = MINDSEYE
+#----------------------------------------
+[NOCTOWL]
+Innates = MINDEYES
+#----------------------------------------
+[CATERPIE]
+Innates = STENCH
+#----------------------------------------
+[METAPOD]
+Innates = COCOONING
+#----------------------------------------
+[BUTTERFREE]
+Innates = POISONWING
+#----------------------------------------
+[KRICKETOT]
+Innates = TAKETHELEAD
+#----------------------------------------
+[KRICKETUNE]
+Innates = TAKETHELEAD
+#----------------------------------------
+[LEDYBA]
+Innates = IRONFIST
+#----------------------------------------
+[LEDIAN]
+Innates = IRONFIST
+#----------------------------------------
+[LEDIAN_1]
+Innates = IRONFIST
+#----------------------------------------
+[NICKIT]
+Innates = FATALPRECISION
+#----------------------------------------
+[THIEVUL]
+Innates = FATALPRECISION
+#----------------------------------------
+[BIDOOF]
+Innates = UNAWARE
+#----------------------------------------
+[BIBAREL]
+Innates = UNAWARE
+#----------------------------------------
+[AZURILL]
+Innates = HUGEPOWER
+#----------------------------------------
+[MARILL]
+Innates = HUGEPOWER
+#----------------------------------------
+[AZUMARILL]
+Innates = HUGEPOWER
+#----------------------------------------
+[SEWADDLE]
+Innates = LEAFGUARD
+#----------------------------------------
+[SWADLOON]
+Innates = LEAFYCLOAK
+#----------------------------------------
+[LEAVANNY]
+Innates = SHARPNESS
+#----------------------------------------
+[BUDEW]
+Innates = POISONPOINT
+#----------------------------------------
+[ROSELIA]
+Innates = TOXICBOUQUET
+#----------------------------------------
+[ROSERADE]
+Innates = TOXICBOUQUET
+#----------------------------------------
+[ROOKIDEE]
+Innates = MOLDBREAKER
+#----------------------------------------
+[CORVISQUIRE]
+Innates = MOLDBREAKER
+#----------------------------------------
+[CORVIKNIGHT]
+Innates = MIRRORARMOR
+#----------------------------------------
+[GOLDEEN]
+Innates = LIGHTNINGROD
+#----------------------------------------
+[SEAKING]
+Innates = LIGHTNINGROD
+#----------------------------------------
+[BARBOACH]
+Innates = ANTICIPATION
+#----------------------------------------
+[WHISCASH]
+Innates = CAUTIOUSENTRANCE
+#----------------------------------------
+[PHANTUMP]
+Innates = FORESTSVENGEANCE
+#----------------------------------------
+[TREVENANT]
+Innates = FORESTSVENGEANCE
+#----------------------------------------
+[CUTIEFLY]
+Innates = SILKYSNARE
+#----------------------------------------
+[RIBOMBEE]
+Innates = SILKYSNARE
+#----------------------------------------
+[COMBEE]
+Innates = TRIFORCE
+#----------------------------------------
+[VESPIQUEN]
+Innates = BEEATTACK
+#----------------------------------------
+[PINECO]
+Innates = SHRAPNEL
+#----------------------------------------
+[FORRETRESS]
+Innates = SHRAPNEL
+#----------------------------------------
+[GOSSIFLEUR]
+Innates = COTTONDOWN
+#----------------------------------------
+[ELDEGOSS]
+Innates = COTTONDOWN
+#----------------------------------------
+[PICHU]
+Innates = CHARGEDUP
+#----------------------------------------
+[PIKACHU]
+Innates = CHARGEDUP
+#----------------------------------------
+[RAICHU]
+Innates = CHARGEDUP
+#----------------------------------------
+[NIDORANfE]
+Innates = RUNAWAY
+#----------------------------------------
+[NIDORINA]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[NIDOQUEEN]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[NIDORANmA]
+Innates = TOXICDEBRIS
+#----------------------------------------
+[NIDORINO]
+Innates = MERCILESS
+#----------------------------------------
+[NIDOKING]
+Innates = MERCILESS
+#----------------------------------------
+[DEERLING]
+Innates = MERCILESS
+#----------------------------------------
+[SAWSBUCK]
+Innates = MERCILESS
+#----------------------------------------
+[AGGRON]
+Innates = FILTER,CLEARBODY
+#----------------------------------------
+[AGGRON_1] #<- Mega Aggron
+Innates = STURDY,WHITESMOKE
+#----------------------------------------
+[METAGROSS]
+Innates1 = SANDVEIL,STURDY,CLEARBODY
+Innates2 = FILTER,CLEARBODY
+Innates3 = PLUS,MINUS,ELECTRICSURGE

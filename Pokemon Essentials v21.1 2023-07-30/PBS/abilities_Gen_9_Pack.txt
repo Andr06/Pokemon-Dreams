@@ -124,6 +124,10 @@ Description = Boosts Attack in Tailwind or when attacked by wind moves.
 Name = Zero to Hero
 Description = Transforms into its Hero Form when it switches out.
 #-------------------------------
+[ZEROTOHEROO]
+Name = Zero to Hero
+Description = Transforms into its Hero Form when it switches out.
+#-------------------------------
 [SUPERSWEETSYRUP]
 Name = Supersweet Syrup
 Description = Lowers the foe's evasion once per battle.
@@ -171,3 +175,11 @@ Description = Resists all types when HP is full.
 [TERAFORMZERO]
 Name = Teraform Zero
 Description = Eliminates all weather and terrain.
+#-------------------------------
+[VEEGUARD]
+Name = Vee Guard
+Description = Resists all types.
+#-------------------------------
+[SHRAPNEL]
+Name = Shrapnel
+Description = Scatters spikes when hit by physical moves.

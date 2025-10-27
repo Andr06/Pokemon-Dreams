@@ -217,7 +217,7 @@ module VisibleEncounterSettings
   # >= 100         - means only normal encounters and instant battles as usual, no overworld spawning
   
   #--------------- SPAWN POSITION ------------------
-  SPAWN_RANGE = 6 # default 4
+  SPAWN_RANGE = 4 # default 4
   # This parameter needs to be a positive integer. It is the maximum range from the player a PokeEvent will be able to spawn 
 
   RESTRICT_ENCOUNTERS_TO_PLAYER_MOVEMENT = false # default false
@@ -227,7 +227,7 @@ module VisibleEncounterSettings
   # false - means that all encounter types can pop up
   #        close to the player (as long as there is a suitable tile)
   
-  NO_SPAWN_ON_BORDER = false # default false
+  NO_SPAWN_ON_BORDER = true # default false
   # true  - means that pokemon on water won't spawn in the border
   # false - means that pokemon will also spawn on the border of water   
 
@@ -260,7 +260,8 @@ module VisibleEncounterSettings
 
   Enc_Movements = [                  # default
     [:shiny?, true, 3, 4, nil],    # [:shiny?, true, 3, 4, 3] means that shiny encounters will be faster
-    [:species, :SLOWPOKE, 1, 1, nil], # [:species, :SLOWPOKE, 1, 1, nil] means that slowpoke is very slow. It might still want to run random or to the player.
+    [:species, :SLOWPOKE, 1, 1, nil],
+    [:species, :NOSEPASS, 1, 1, nil], # [:species, :SLOWPOKE, 1, 1, nil] means that slowpoke is very slow. It might still want to run random or to the player.
     [:nature, :NAUGHTY, nil, 4, 3] # [:nature, :NAUGHTY, nil, 4, 3] means pokemon with a naughty nature will run to the player and be faster
   ]
   # This parameter is used to change movement of spawned PokeEvents depending on the spawned pokemon.
@@ -272,7 +273,7 @@ module VisibleEncounterSettings
   # nil  - means that the movement-parameter will not be changed.
 
   #--------------- BATTLING SPAWNED POKEMON ------------------
-  BATTLE_WATER_FROM_SHORE = true #default true
+  BATTLE_WATER_FROM_SHORE = false #default true
   # this is used if you want to battle water pokemon without surfing
   # (default is true but I think is better in false)
   #false - means the battle wont start if not surfing 
@@ -704,9 +705,9 @@ def ow_sprite_filename(x, y, species, form = 0, gender = 0, shiny = false, shado
   water_tile  = ($game_map.terrain_tag(x,y).can_surf_freely) ? true : false  
   fname = nil
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Swimming Shiny") if water_tile and shiny
-  fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Levitates Shiny") if water_tile and shiny and nil_or_empty?(fname)
+ # fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Levitates Shiny") if water_tile and shiny and nil_or_empty?(fname)
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Swimming") if water_tile and nil_or_empty?(fname)
-  fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Levitates") if water_tile and nil_or_empty?(fname)
+ # fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Levitates") if water_tile and nil_or_empty?(fname)
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", species, form, gender, shiny, shadow, "Followers") if nil_or_empty?(fname)
   fname = "Graphics/Characters/Followers/000.png" if nil_or_empty?(fname)
   return fname

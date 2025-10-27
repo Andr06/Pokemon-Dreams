@@ -378,17 +378,6 @@ OverworldLand, 35
     15,GOSSIFLEUR,3,5
     15,LEDYBA,2,4
 	10,COMBEE,3,5
-LandEvening,21
-    15,KRICKETOT,2,4
-    15,NICKIT,2,4
-    5,NIDORANfE,2,4
-    5,NIDORANmA,2,4
-OverworldLandEvening,35
-    20,SKWOVET,2,4
-	20,FLETCHLING,2,5
-    15,GOSSIFLEUR,3,5
-    15,HOOTHOOT,2,5
-    5,KARRABLAST,4,6
 LandNight,21
     15,KRICKETOT,2,4
     15,NICKIT,2,4
@@ -416,19 +405,6 @@ OverworldLand, 35
 	20,FLABEBE,9,11
 	5,RIOLU,9,11
     1,FENNEKIN,11
-LandEvening,21
-    20,KRICKETOT,9,11
-    20,VENONAT,9,11
-	20,CHERUBI,9,11
-    2,MISDREAVUS,9,11
-    1,TURTWIG,11
-OverworldLandEvening,35
-    15,SKWOVET,9,10
-	20,GOSSIFLEUR,9,11
-    15,HOOTHOOT,9,11
-    20,FLABEBE,9,11
-    2,MURKROW,9,11
-    1,FENNEKIN,11
 LandNight,21
     20,KRICKETOT,9,11
     20,VENONAT,9,11
@@ -446,7 +422,7 @@ OldRod
     30,AZURILL,9,11
     30,BARBOACH,9,11
 	5,TADBULB,9,11
-OverworldWater, 35
+OverworldWater, 20
     30,AZURILL,9,11
     20,CHEWTLE,9,11
     10,MARILL,9,11
@@ -461,14 +437,6 @@ OverworldLand,35
 	30,FLETCHLING,3,5
     30,SENTRET,3,4
     20,BUNNELBY,5
-OverworldLandEvening,21
-    30,FLETCHLING,3,5
-    30,SENTRET,3,4
-    20,NICKIT,5
-LandEvening,21
-    40,KRICKETOT,3,5
-    20,BUDEW,3,4
-    5,APPLIN,5
 LandNight,21
     30,HOOTHOOT,3,5
     30,SENTRET,3,4
@@ -481,7 +449,7 @@ OldRod
     473,GOLDEEN,3,4
     472,BARBOACH,3,4
     5,FEEBAS,5
-OverworldWater,35
+OverworldWater,20
     20,AZURILL,2,5
     20,BARBOACH,2,5
 	20,DUCKLETT,2,5
@@ -491,26 +459,15 @@ OverworldWater,35
 [080] # Frannaple Meadow Outskirts
 Land,21
     20,SENTRET,3,4
-    20,SEWADDLE,3,5
+    20,SEWADDLE_1,3,5
 	10,PINECO,3,5
 OverworldLand,35
     40,BIDOOF,3,5
     40,ROOKIDEE,3,5
     10,PICHU,3,5
+    20,DEERLING_2,3,5
 	20,CUTIEFLY,3,5
 	1,PIKACHU,5
-LandEvening,21
-	20,KRICKETOT,3,5
-    20,SENTRET,3,4
-	20,SPINARAK,3,5
-	10,PINECO,4,5
-OverworldLandEvening,35
-    40,PHANTUMP,3,5
-    40,HOOTHOOT,3,5
-    20,DEERLING_2,3,5
-    10,PICHU,3,5
-    5,MURKROW,5
-    5,ZORUA,3,5
 LandNight,21
 	20,KRICKETOT,3,5
     20,SENTRET,3,4
@@ -525,8 +482,8 @@ OverworldLandNight,35
     5,ZORUA,3,5
 OldRod
 	20,BARBOACH,12,15
-OverworldWater,35
+OverworldWater,20
 	20,DEWPIDER,12,15
 	30,POLIWAG,12,15
-	5,YANMA,14,15
+	10,YANMA,14,15
 	1,FROAKIE,14,15

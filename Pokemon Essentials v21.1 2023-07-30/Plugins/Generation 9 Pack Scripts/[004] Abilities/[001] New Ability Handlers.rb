@@ -242,6 +242,22 @@ Battle::AbilityEffects::OnBeingHit.add(:TOXICDEBRIS,
 )
 
 #===============================================================================
+# Toxic Debris
+#===============================================================================
+Battle::AbilityEffects::OnBeingHit.add(:SHRAPNEL,
+  proc { |ability, user, target, move, battle|
+    next if !move.physicalMove?
+    next if target.damageState.substitute
+    next if target.pbOpposingSide.effects[PBEffects::Spikes] >= 3
+    battle.pbShowAbilitySplash(target)
+    target.pbOpposingSide.effects[PBEffects::Spikes] += 1
+    battle.pbAnimation(:SPIKES, target, target.pbDirectOpposing)
+    battle.pbDisplay(_INTL("Spikes were scattered on the ground all around {1}!", target.pbOpposingTeam(true)))
+    battle.pbHideAbilitySplash(target)
+  }
+)
+
+#===============================================================================
 # Wind Power
 #===============================================================================
 Battle::AbilityEffects::OnBeingHit.add(:WINDPOWER,
@@ -345,6 +361,51 @@ Battle::AbilityEffects::OnSwitchOut.add(:ZEROTOHERO,
     battler.pbChangeForm(1, "")
   }
 )
+
+
+#===============================================================================
+# Zero To Hero  (Ledian)
+#===============================================================================
+Battle::AbilityEffects::OnSwitchIn.add(:ZEROTOHEROO,
+  proc { |ability, battler, battle, switch_in|
+    next if !battler.isSpecies?(:LEDIAN)
+    # Handles either method signature
+    begin
+      already_triggered = battle.pbAbilityTriggered?(battler, ability)
+    rescue ArgumentError
+      already_triggered = battle.pbAbilityTriggered?(ability, battler)
+    end
+    next if battler.form == 0 || already_triggered
+
+    battle.pbShowAbilitySplash(battler)
+    battle.pbDisplay(_INTL("{1} underwent a heroic transformation!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+
+    # Handles both signatures for pbSetAbilityTrigger
+    begin
+      battle.pbSetAbilityTrigger(battler, ability)
+    rescue ArgumentError
+      battle.pbSetAbilityTrigger(ability, battler)
+    end
+
+    battler.pbChangeForm(1, "Heroic transformation")
+  }
+)
+
+Battle::AbilityEffects::OnSwitchOut.add(:ZEROTOHEROO,
+  proc { |ability, battler, endOfBattle|
+    next if !battler.isSpecies?(:LEDIAN)
+    next if battler.form == 1 || endOfBattle
+    PBDebug.log("Zero to Hero triggered for #{battler.pbThis}")
+    battler.pbChangeForm(1, "")
+  }
+)
+
+
+
+
+
+
 
 #===============================================================================
 # Commander
@@ -542,3 +603,4 @@ Battle::AbilityEffects::SpeedCalc.add(:PROTOSYNTHESIS,
 )
 
 Battle::AbilityEffects::SpeedCalc.copy(:PROTOSYNTHESIS, :QUARKDRIVE)
+#------------------------------------------------------------------------------
