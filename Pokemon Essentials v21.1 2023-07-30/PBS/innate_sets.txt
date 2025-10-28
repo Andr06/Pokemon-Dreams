@@ -320,6 +320,27 @@ Innates = ILLUSION
 [ZOROARK]
 Innates = ILLUSION
 #----------------------------------------
+[FEEBAS]
+Innates = ADAPTABILITY
+#----------------------------------------
+[MILOTIC]
+Innates = PRISMATICTIDE
+#----------------------------------------
+[APPLIN]
+Innates = STURDY
+#----------------------------------------
+[FLAPPLE]
+Innates = GRAVITYCORE
+#----------------------------------------
+[APPLETUN]
+Innates = AROMAVEIL
+#----------------------------------------
+[DIPPLIN]
+Innates = DUALHEADED
+#----------------------------------------
+[HYDRAPPLE]
+Innates = HYDRASTRIKE
+#----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY
 #----------------------------------------

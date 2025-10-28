@@ -148,7 +148,7 @@ Name = Tri Force
 Description = Moves hit three times.
 #-------------------------------
 [HYDRASTRIKE]
-Name = Hydra Strike
+Name = Hydra Core
 Description = Moves hit five times.
 #-------------------------------
 [DUALHEADED]

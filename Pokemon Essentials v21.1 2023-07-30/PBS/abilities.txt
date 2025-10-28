@@ -1158,3 +1158,11 @@ Description = Powers up aura and pulse moves.
 [AMBUSH]
 Name = Ambush
 Description = Dark-type moves gain priority.
+#-------------------------------
+[PRISMATICTIDE]
+Name = Prismatic Tide
+Description = Powers up moves that are not the same type.
+#-------------------------------
+[PRISMSCALES]
+Name = Ice Scales
+Description = Reduces the damage taken from special moves by 30%.
