@@ -544,28 +544,32 @@ end
 
 Battle::AbilityEffects::DamageCalcFromUser.add(:TRIFORCE,
 	proc { |ability, user, target, move, mults, baseDmg, type|
-		mults[:power_multiplier] *= Settings::MAG_DUALWIELD 
 	}
 )
 
 class Battle::Move
-	alias mag_pbNumHits_triForce pbNumHits
-	def pbNumHits(user, targets)
-		origHits = mag_pbNumHits_triForce(user, targets)
-			if user.hasActiveAbility?(:TRIFORCE) && pbDamagingMove? &&
-				!chargingTurnMove? && targets.length == 1
-				# Record that Parental Bond applies, to weaken the second attack
-				user.effects[PBEffects::ParentalBond] = 3
-				return 3
-			end
+  alias mag_pbNumHits_triForce pbNumHits
+  def pbNumHits(user, targets)
+    origHits = mag_pbNumHits_triForce(user, targets)
+    if user.hasActiveAbility?(:TRIFORCE) && damagingMove? &&
+       !chargingTurnMove? && targets.length == 1
+      return 3
+    end
+    return origHits
+  end
 
-			return origHits
-		end
-	end
+  alias mag_pbBaseDamage_triForce pbBaseDamage
+  def pbBaseDamage(baseDmg, user, target)
+    baseDmg = mag_pbBaseDamage_triForce(baseDmg, user, target)
+    if user.hasActiveAbility?(:TRIFORCE)
+      baseDmg = (baseDmg * 0.6).round   # each hit = 60% of normal damage
+    end
+    return baseDmg
+  end
+end
 
 Battle::AbilityEffects::DamageCalcFromUser.add(:DUALHEADED,
 	proc { |ability, user, target, move, mults, baseDmg, type|
-		mults[:power_multiplier] *= Settings::MAG_DUALWIELD 
 	}
 )
 
@@ -586,24 +590,29 @@ class Battle::Move
 
 Battle::AbilityEffects::DamageCalcFromUser.add(:HYDRASTRIKE,
 	proc { |ability, user, target, move, mults, baseDmg, type|
-		mults[:power_multiplier] *= Settings::MAG_DUALWIELD 
 	}
 )
 
 class Battle::Move
-	alias mag_pbNumHits_hydraStrike pbNumHits
-	def pbNumHits(user, targets)
-		origHits = mag_pbNumHits_hydraStrike(user, targets)
-			if user.hasActiveAbility?(:HYDRASTRIKE) && pbDamagingMove? &&
-				!chargingTurnMove? && targets.length == 1
-				# Record that Parental Bond applies, to weaken the second attack
-				user.effects[PBEffects::ParentalBond] = 3
-				return 5
-			end
+  alias mag_pbNumHits_hydraStrike pbNumHits
+  def pbNumHits(user, targets)
+    origHits = mag_pbNumHits_hydraStrike(user, targets)
+    if user.hasActiveAbility?(:HYDRASTRIKE) && damagingMove? &&
+       !chargingTurnMove? && targets.length == 1
+      return 5
+    end
+    return origHits
+  end
 
-			return origHits
-		end
-	end
+  alias mag_pbBaseDamage_hydraStrike pbBaseDamage
+  def pbBaseDamage(baseDmg, user, target)
+    baseDmg = mag_pbBaseDamage_hydraStrike(baseDmg, user, target)
+    if user.hasActiveAbility?(:HYDRASTRIKE)
+      baseDmg = (baseDmg * 0.3).round   # each hit does 40% damage
+    end
+    return baseDmg
+  end
+end
 #===============================================================================
 	# Vengence
 	# User gets +1 in all stats, traps self, -2 after KOing a mon

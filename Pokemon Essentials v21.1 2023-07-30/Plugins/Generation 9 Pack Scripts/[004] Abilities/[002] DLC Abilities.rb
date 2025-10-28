@@ -235,3 +235,17 @@ Battle::AbilityEffects::OnInflictingStatus.add(:POISONPUPPETEER,
     user.battle.pbHideAbilitySplash(user)
   }
 )
+
+#===============================================================================
+# Mind Melter
+#===============================================================================
+Battle::AbilityEffects::OnInflictingStatus.add(:MINDMELTER,
+  proc { |ability, user, battler, status|
+    next if !user || user.index == battler.index
+    next if status != :BURN
+    next if battler.effects[PBEffects::Confusion] > 0
+    user.battle.pbShowAbilitySplash(user)
+    battler.pbConfuse if battler.pbCanConfuse?(user, false, nil)
+    user.battle.pbHideAbilitySplash(user)
+  }
+)

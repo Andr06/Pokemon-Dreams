@@ -5386,7 +5386,7 @@ Description = As long as this move is in use, the user's Attack rises each time 
 #-------------------------------
 [SPIKECANNON]
 Name = Spike Cannon
-Type = NORMAL
+Type = WATER
 Category = Physical
 Power = 20
 Accuracy = 100
@@ -8774,3 +8774,15 @@ Target = NearOther
 FunctionCode = None
 Flags = CanProtect,CanMirrorMove,Sound
 Description = The user lets loose a horribly ghastly cry with the power to inflict damage.
+#-------------------------------
+[TERRAINSTRIKE]
+Name = Terrain Strike
+Type = NORMAL
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TypeAndPowerDependOnTerrain
+Flags = CanProtect,CanMirrorMove,Contact
+Description = Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.

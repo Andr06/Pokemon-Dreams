@@ -535,6 +535,25 @@ Battle::AbilityEffects::OnSwitchIn.add(:CAUTIOUSENTRANCE,
   }
 )
 
+Battle::AbilityEffects::OnSwitchIn.add(:SOULBURNER,
+  proc { |ability, battler, battle, switch_in|
+    target = battle.allOtherSideBattlers(battler.index).find { |b| b && !b.fainted? }
+    next if battler.ability_triggered?
+    next if !target
+
+
+    battle.pbShowAbilitySplash(battler)
+
+    if target.pbCanBurn?(battler, false)
+      target.pbBurn(battler)
+      battle.pbDisplay(_INTL("{1} was burned!", target.pbThis))
+    end
+
+    battle.pbHideAbilitySplash(battler)
+    battle.pbSetAbilityTrigger(battler)
+  }
+)
+
 
 #===============================================================================
 # Intrepid Sword

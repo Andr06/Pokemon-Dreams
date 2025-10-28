@@ -187,3 +187,7 @@ Description = Scatters spikes when hit by physical moves.
 [BIGBOSS]
 Name = Big Boss
 Description = Boosts the power of its moves with every fainted ally.
+#-------------------------------
+[MINDMELTER]
+Name = Mind Melter
+Description = Moves that inflict burn also cause confusion.

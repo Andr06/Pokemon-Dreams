@@ -272,7 +272,7 @@ Description = Powers up Water-type moves in a pinch.
 #-------------------------------
 [SWARM]
 Name = Swarm
-Description = Powers up Bug-type moves in a pinch.
+Description = Powers up Bug-type moves at half health.
 #-------------------------------
 [ROCKHEAD]
 Name = Rock Head
@@ -1164,5 +1164,27 @@ Name = Prismatic Tide
 Description = Powers up moves that are not the same type.
 #-------------------------------
 [PRISMSCALES]
-Name = Ice Scales
+Name = Prism Scales
 Description = Reduces the damage taken from special moves by 30%.
+#-------------------------------
+[GRAVITYCORE]
+Name = Gravity Core
+Description = Intensifies Gravity on switch in.
+#-------------------------------
+[SOULBURNER]
+Name = Soul Burner
+Description = This Pokémon burns the target's very soul on switch in. This works only once.
+#-------------------------------
+[SOULDRAIN]
+Name = Soul Drain
+Description = Draws in all Ghost-type moves to up Sp. Attack.
+#-------------------------------
+[POLIFLOW]
+Name = Poli Flow
+Description = Boosts Attack and Speed slightly, but allows only one move to be used.
+#-------------------------------
+[TWISTEDDIMENSIONS]
+Name = Twisted Dimension
+Description = Sets up Trick Room on switch in. Lasts three turns.
+
+

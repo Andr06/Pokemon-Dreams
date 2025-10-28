@@ -341,6 +341,87 @@ Innates = DUALHEADED
 [HYDRAPPLE]
 Innates = HYDRASTRIKE
 #----------------------------------------
+[LITWICK]
+Innates = SOULBURNER
+#----------------------------------------
+[LAMPENT]
+Innates = SOULBURNER
+#----------------------------------------
+[CHANDELURE]
+Innates = SOULBURNER
+#----------------------------------------
+[POLIWAG]
+Innates = GOOEY
+#----------------------------------------
+[POLIWHIRL]
+Innates = GOOEY
+#----------------------------------------
+[POLIWRATH]
+Innates = POLIFLOW
+#----------------------------------------
+[POLITOED]
+Innates = DRIZZLE
+#----------------------------------------
+[DEWPIDER]
+Innates = WATERBUBBLE
+#----------------------------------------
+[ARAQUANID]
+Innates = WATERBUBBLE
+#----------------------------------------
+[YANMA]
+Innates = DRAGONSMAW
+#----------------------------------------
+[YANMEGA]
+Innates = DRAGONSMAW
+#----------------------------------------
+[FROAKIE]
+Innates = LONGREACH
+#----------------------------------------
+[FROGADIER]
+Innates = LONGREACH
+#----------------------------------------
+[GRENINJA]
+Innates = SKILLLINK
+#----------------------------------------
+[PASSIMIAN]
+Innates = DEFIANT
+#----------------------------------------
+[ORANGURU]
+Innates = TAKETHELEAD
+#----------------------------------------
+[SLOWPOKE]
+Innates = UNAWARE
+#----------------------------------------
+[SLOWBRO]
+Innates = UNAWARE
+#----------------------------------------
+[SLOWKING]
+Innates = TWISTEDDIMENSIONS
+#----------------------------------------
+[FOMANTIS]
+Innates = MIMICRY
+#----------------------------------------
+[LURANTIS]
+Innates = MIMICRY
+#----------------------------------------
+[BULBASAUR]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[IVYSAUR]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[VENUSAUR]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[SCYTHER]
+Innates = TECHNICIAN
+#----------------------------------------
+[SCIZOR]
+Innates = TECHNICIAN
+#----------------------------------------
+[KLEAVOR]
+Innates = SHARPNESS
+#----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY
 #----------------------------------------
