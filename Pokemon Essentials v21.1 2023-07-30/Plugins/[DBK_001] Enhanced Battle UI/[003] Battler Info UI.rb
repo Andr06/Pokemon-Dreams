@@ -146,7 +146,7 @@ class Battle::Scene
     # Battler status.
     if battler.status != :NONE
       iconPos = GameData::Status.get(battler.status).icon_position
-      imagePos.push(["Graphics/UI/statuses", xpos + 86, ypos + 104, 0, iconPos * 16, 44, 16])
+      imagePos.push(["Graphics/UI/statuses1", xpos + 86, ypos + 104, 0, iconPos * 16, 44, 16])
     end
     # Shininess
     imagePos.push(["Graphics/UI/shiny", xpos + 142, ypos + 102]) if poke.shiny?

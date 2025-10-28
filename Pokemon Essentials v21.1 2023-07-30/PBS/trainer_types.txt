@@ -1,5 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[trainer_PlayerM]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+SpriteScale = 1
+ShadowXY = 2,-10
+#-------------------------------
+[trainer_PlayerF]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+SpriteScale = 1
+ShadowXY = 0,-10
+#-------------------------------
 [POKEMONTRAINER_Brendan]
 Name = Pokémon Trainer
 Gender = Male
@@ -963,4 +977,3 @@ VictoryBGM = Battle victory leader
 Name = Professor
 Gender = Male
 BaseMoney = 100
-#-------------------------------

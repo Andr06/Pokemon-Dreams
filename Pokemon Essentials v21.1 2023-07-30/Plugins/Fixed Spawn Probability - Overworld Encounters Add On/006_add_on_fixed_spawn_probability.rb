@@ -18,7 +18,7 @@
 
 
 module VisibleEncounterSettings
-  VISIBLE_ENCOUNTER_PROBABILITY = 60 # default 0
+  VISIBLE_ENCOUNTER_PROBABILITY = 40 # default 0
   # The PokeEvent will spawn according to this probability if the value is greater than 0
   # <= 0           - means only using the default PEv19.1 encounter chance calculator
   # > 0 (1..100)   - means using this probabilty out of 100 instead of normal chance

@@ -14,6 +14,7 @@ Category = Scout
 Pokedex = They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.
 Generation = 8
 Flags = InheritFormWithEverStone
+RaidRanks = 1,2,3
 #-------------------------------
 [ARCANINE,1]
 FormName = Hisuian
@@ -27,6 +28,7 @@ Weight = 168.0
 Pokedex = Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
 Generation = 8
 Flags = InheritFormWithEverStone
+RaidRanks = 4,5
 #-------------------------------
 [VOLTORB,1]
 FormName = Hisuian
@@ -41,6 +43,7 @@ Pokedex = An enigmatic Pokémon that happens to bear a resemblance to a Poké Ba
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = ELECTRODE,Item,LEAFSTONE
+RaidRanks = 1,2
 #-------------------------------
 [ELECTRODE,1]
 FormName = Hisuian
@@ -53,6 +56,7 @@ Category = Sphere
 Pokedex = The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.
 Generation = 8
 Flags = InheritFormWithEverStone
+RaidRanks = 3,4
 #-------------------------------
 [TAUROS,1]
 FormName = Paldean (Combat Breed)
@@ -67,6 +71,7 @@ Color = Black
 Pokedex = This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.
 Generation = 9
 Flags = InheritFormWithEverStone
+RaidRanks = 4,5
 #-------------------------------
 [TAUROS,2]
 FormName = Paldean (Blaze Breed)
@@ -81,6 +86,7 @@ Color = Black
 Pokedex = People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.
 Generation = 9
 Flags = InheritFormWithEverStone
+RaidRanks = 4,5
 #-------------------------------
 [TAUROS,3]
 FormName = Paldean (Aqua Breed)
@@ -95,6 +101,7 @@ Color = Black
 Pokedex = It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.
 Generation = 9
 Flags = InheritFormWithEverStone
+RaidRanks = 4,5
 #-------------------------------
 [TYPHLOSION,1]
 FormName = Hisuian
@@ -108,6 +115,7 @@ Weight = 69.7
 Category = Ghost Flame
 Pokedex = Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.
 Generation = 8
+RaidRanks = 3,4,5
 #-------------------------------
 [WOOPER,1]
 FormName = Paldean
@@ -123,6 +131,7 @@ Pokedex = After losing a territorial struggle, Wooper began living on land. The 
 Generation = 9
 Flags = InheritFormWithEverStone
 Evolutions = CLODSIRE,Level,20
+RaidRanks = 1,2
 #-------------------------------
 [QWILFISH,1]
 FormName = Hisuian
@@ -134,6 +143,7 @@ Pokedex = Fishers detest this troublesome Pokémon because it sprays poison from
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = OVERQWIL,LevelUseMoveCount,BARBBARRAGE
+RaidRanks = 2,3
 #-------------------------------
 [SNEASEL,1]
 FormName = Hisuian
@@ -148,6 +158,7 @@ Pokedex = Its sturdy, curved claws are ideal for traversing precipitous cliffs. 
 Generation = 8
 Flags = InheritFormWithEverStone,HasGenderedSprites
 Evolutions = SNEASLER,DayHoldItem,RAZORCLAW
+RaidRanks = 2,3
 #-------------------------------
 [DIALGA,1]
 FormName = Origin Forme
@@ -174,6 +185,7 @@ TutorMoves = AERIALACE,AIRSLASH,AVALANCHE,BLIZZARD,BODYSLAM,BRICKBREAK,BULLDOZE,
 Weight = 58.2
 Pokedex = Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.
 Generation = 8
+RaidRanks = 3,4,5
 #-------------------------------
 [LILLIGANT,1]
 FormName = Hisuian
@@ -188,6 +200,7 @@ Weight = 19.2
 Category = Spinning
 Pokedex = They suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.
 Generation = 8
+RaidRanks = 3,4
 #-------------------------------
 [BASCULIN,2]
 FormName = White-Striped
@@ -200,6 +213,7 @@ Pokedex = Though it differs from other Basculin in several respects, including d
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = BASCULEGION,LevelRecoilDamage,294
+RaidRanks = 2,3
 #-------------------------------
 [ZORUA,1]
 FormName = Hisuian
@@ -213,6 +227,7 @@ Category = Spiteful Fox
 Pokedex = A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.
 Generation = 8
 Flags = InheritFormWithEverStone
+RaidRanks = 1,2
 #-------------------------------
 [ZOROARK,1]
 FormName = Hisuian
@@ -225,6 +240,7 @@ Category = Baneful Fox
 Pokedex = With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.
 Generation = 8
 Flags = InheritFormWithEverStone
+RaidRanks = 3,4,5
 #-------------------------------
 [BRAVIARY,1]
 FormName = Hisuian
@@ -240,6 +256,7 @@ Color = White
 Category = Battle Cry
 Pokedex = Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.
 Generation = 8
+RaidRanks = 3,4,5
 #-------------------------------
 [SLIGGOO,1]
 FormName = Hisuian
@@ -253,6 +270,7 @@ Weight = 68.5
 Category = Snail
 Pokedex = A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.
 Generation = 8
+RaidRanks = 3,4
 #-------------------------------
 [GOODRA,1]
 FormName = Hisuian
@@ -266,6 +284,7 @@ Weight = 334.1
 Category = Shell Bunker
 Pokedex = Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.
 Generation = 8
+RaidRanks = 5
 #-------------------------------
 [AVALUGG,1]
 FormName = Hisuian
@@ -278,6 +297,7 @@ Height = 1.4
 Weight = 262.4
 Pokedex = The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.
 Generation = 8
+RaidRanks = 4,5
 #-------------------------------
 [DECIDUEYE,1]
 FormName = Hisuian
@@ -289,6 +309,7 @@ TutorMoves = AERIALACE,AIRCUTTER,AIRSLASH,AURASPHERE,BATONPASS,BRAVEBIRD,BRICKBR
 Weight = 37.0
 Pokedex = The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.
 Generation = 8
+RaidRanks = 3,4,5
 #-------------------------------
 [URSALUNA,1]
 FormName = Bloodmoon Ursaluna
@@ -300,6 +321,7 @@ TutorMoves = AVALANCHE,BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,CALMMIND,CRUNCH,DI
 Height = 2.7
 Weight = 333.0
 Generation = 9
+RaidRanks = 5
 #-------------------------------
 [BASCULEGION,1]
 FormName = Female
@@ -312,6 +334,7 @@ BaseStats = 74,115,110,46,135,100
 Abilities = OVERCOAT
 Shape = Quadruped
 Pokedex = A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
+RaidRanks = 6
 #-------------------------------
 [OINKOLOGNE,1]
 FormName = Female
@@ -332,6 +355,7 @@ BaseExp = 228
 Height = 1.8
 Weight = 97.4
 Category = Hero
+RaidRanks = 5
 #-------------------------------
 [MAUSHOLD,1]
 FormName = Family of Three

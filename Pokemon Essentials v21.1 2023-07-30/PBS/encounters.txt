@@ -372,7 +372,7 @@ Land,21
     10,DUCKLETT,3,5
     5,NIDORANfE,2,4
     5,NIDORANmA,2,4
-OverworldLand, 35
+OverworldLand, 21
 	20,FLETCHLING,2,5
     20,SKWOVET,2,4
     15,GOSSIFLEUR,3,5
@@ -383,7 +383,7 @@ LandNight,21
     15,NICKIT,2,4
     5,NIDORANfE,2,4
     5,NIDORANmA,2,4
-OverworldLandNight,35
+OverworldLandNight,21
     20,SKWOVET,2,4
 	20,FLETCHLING,2,5
     15,GOSSIFLEUR,3,5
@@ -398,7 +398,7 @@ Land,21
     10,DUCKLETT,9,11
     1,BUTTERFREE,12
     1,TURTWIG,11
-OverworldLand, 35
+OverworldLand, 21
     15,SKWOVET,9,10
     20,GOSSIFLEUR,9,11
     5,COMBEE,9,11
@@ -411,7 +411,7 @@ LandNight,21
 	20,CHERUBI,9,11
     2,MISDREAVUS,9,11
     1,TURTWIG,11
-OverworldLandNight,35
+OverworldLandNight,21
     15,SKWOVET,9,10
 	20,GOSSIFLEUR,9,11
     15,HOOTHOOT,9,11
@@ -433,11 +433,11 @@ Land,21
     40,CATERPIE,3,5
     20,BUDEW,3,4
     5,APPLIN,5
-OverworldLand,35
+OverworldLand,21
 	30,FLETCHLING,3,5
     30,SENTRET,3,4
     20,BUNNELBY,5
-LandNight,21
+OverworldLandNight,21
     30,HOOTHOOT,3,5
     30,SENTRET,3,4
 	5,KARRABLAST,5
