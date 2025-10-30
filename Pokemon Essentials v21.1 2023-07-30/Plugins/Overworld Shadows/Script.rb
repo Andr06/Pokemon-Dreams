@@ -25,6 +25,7 @@ class Sprite_Character < RPG::Sprite
       "CutTree",
       "Door",
       "Stairs",
+      "Healing balls",
       "Fireplace",
       "HiddenItem",
       "Window"

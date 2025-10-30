@@ -177,6 +177,7 @@ BaseMoney = 32
 Name = Camper
 Gender = Male
 BaseMoney = 16
+IntroBGM = BW 125 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [CHANNELER]
 Name = Channeler
@@ -385,16 +386,19 @@ Name = Lass
 Gender = Female
 BaseMoney = 16
 SpriteScale = 1
+IntroBGM = BW 128 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [LASS3]
 Name = Lass
 Gender = Female
 BaseMoney = 16
+IntroBGM = BW 128 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [LASS]
 Name = Lass
 Gender = Female
 BaseMoney = 16
+IntroBGM = BW 128 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [MAID2]
 Name = Maid
@@ -426,6 +430,7 @@ BaseMoney = 32
 Name = Picnicker
 Gender = Female
 BaseMoney = 16
+IntroBGM = BW 128 Trainers_ Eyes Meet (Lass)
 #-------------------------------
 [POKEFAN_F2]
 Name = Poké Fan
@@ -754,16 +759,19 @@ Name = Youngster
 Gender = Male
 BaseMoney = 16
 SpriteScale = 1
+IntroBGM = BW 125 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [YOUNGSTER3]
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+IntroBGM = BW 125 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
 BaseMoney = 16
+IntroBGM = BW 125 Trainers_ Eyes Meet (Youngster)
 #-------------------------------
 [BELLEANDPA]
 Name = Belle & Pa
