@@ -442,3 +442,10 @@ Name = Franapple Meadow Outskirts
 Outdoor = true
 BattleBack = FRLGGrass2
 Environment = Grass
+#-------------------------------
+[085]   # Academy Courtyard
+Name = Academy Courtyard
+Outdoor = true
+ShowArea = true
+BattleBack = FRLGGrass
+Environment = Grass

@@ -1390,7 +1390,7 @@ Color = Red
 #-------------------------------
 [BASCULIN,1]
 FormName = Blue-Striped
-Abilities = ROCKHEAD,ADAPTABILITY
+Abilities = ROCKHEAD,STRONGJAW
 Pokedex = Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.
 WildItemUncommon = DEEPSEASCALE
 RaidRanks = 2,3

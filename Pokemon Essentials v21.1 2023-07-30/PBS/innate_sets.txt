@@ -53,11 +53,11 @@ Innates = CHEEKPOUCH
 [GREEDENT]
 Innates = CHEEKPOUCH
 #----------------------------------------
-[HOOTHOOT]
-Innates = MINDSEYE
+[PATRAT]
+Innates = TINTEDLENS
 #----------------------------------------
-[NOCTOWL]
-Innates = MINDEYES
+[WATCHOG]
+Innates = TINTEDLENS
 #----------------------------------------
 [CATERPIE]
 Innates = STENCH
@@ -95,6 +95,12 @@ Innates = UNAWARE
 [BIBAREL]
 Innates = UNAWARE
 #----------------------------------------
+[DUCKLETT]
+Innates = SEADIVER
+#----------------------------------------
+[SWANNA]
+Innates = SWANSGRACE
+#----------------------------------------
 [AZURILL]
 Innates = HUGEPOWER
 #----------------------------------------
@@ -113,6 +119,15 @@ Innates = LEAFYCLOAK
 [LEAVANNY]
 Innates = SHARPNESS
 #----------------------------------------
+[VENIPEDE]
+Innates = SPEEDBOOST
+#----------------------------------------
+[WHIRLIPEDE]
+Innates = SPEEDBOOST
+#----------------------------------------
+[SCOLIPEDE]
+Innates = SPEEDBOOST
+#----------------------------------------
 [BUDEW]
 Innates = POISONPOINT
 #----------------------------------------
@@ -122,6 +137,15 @@ Innates = TOXICBOUQUET
 [ROSERADE]
 Innates = TOXICBOUQUET
 #----------------------------------------
+[PIDOVE]
+Innates = GALEWINGS
+#----------------------------------------
+[TRANQUILL]
+Innates = GALEWINGS
+#----------------------------------------
+[UNFEZANT]
+Innates = GALEWINGS
+#----------------------------------------
 [ROOKIDEE]
 Innates = MOLDBREAKER
 #----------------------------------------
@@ -130,6 +154,12 @@ Innates = MOLDBREAKER
 #----------------------------------------
 [CORVIKNIGHT]
 Innates = MIRRORARMOR
+#----------------------------------------
+[HOOTHOOT]
+Innates = MINDSEYE
+#----------------------------------------
+[NOCTOWL]
+Innates = MINDEYES
 #----------------------------------------
 [GOLDEEN]
 Innates = LIGHTNINGROD
@@ -142,6 +172,42 @@ Innates = ANTICIPATION
 #----------------------------------------
 [WHISCASH]
 Innates = CAUTIOUSENTRANCE
+#----------------------------------------
+[WOOPER]
+Innates = WATERVEIL
+#----------------------------------------
+[WOOPER_1]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[QUAGSIRE]
+Innates = WATERVEIL
+#----------------------------------------
+[CLODSIRE]
+Innates = NOXIOUSBODY
+#----------------------------------------
+[LOTAD]
+Innates = RAINDISH
+#----------------------------------------
+[LOMBRE]
+Innates = RAINDISH
+#----------------------------------------
+[LUDICOLO]
+Innates = RAINDISH
+#----------------------------------------
+[SEEDOT]
+Innates = STURDY
+#----------------------------------------
+[NUZLEAF]
+Innates = WINDRIDER
+#----------------------------------------
+[SHIFTRY]
+Innates = WINDRIDER
+#----------------------------------------
+[MUNNA]
+Innates = COMATOSE
+#----------------------------------------
+[MUSHARNA]
+Innates = COMATOSE
 #----------------------------------------
 [PHANTUMP]
 Innates = FORESTSVENGEANCE
@@ -200,11 +266,38 @@ Innates = MERCILESS
 [NIDOKING]
 Innates = MERCILESS
 #----------------------------------------
+[MORELULL]
+Innates = BADDREAMS
+#----------------------------------------
+[SHIINOTIC]
+Innates = BADDREAMS
+#----------------------------------------
+[SPRITZEE]
+Innates = AROMAVEIL
+#----------------------------------------
+[AROMATISSE]
+Innates = AROMAVEIL
+#----------------------------------------
 [DEERLING]
 Innates = FLOWERGIFT
 #----------------------------------------
 [SAWSBUCK]
 Innates = FLOWERGIFT
+#----------------------------------------
+[BASCULIN]
+Innates = ADAPTABILITY
+#----------------------------------------
+[BASCULEGION]
+Innates = ADAPTABILITY
+#----------------------------------------
+[TEDDIURSA]
+Innates = FLUFFY
+#----------------------------------------
+[URSARING]
+Innates = FLUFFY
+#----------------------------------------
+[URSALUNA]
+Innates = FLUFFY
 #----------------------------------------
 [FLABEBE]
 Innates = NATURALCURE
@@ -227,11 +320,11 @@ Innates = TOXICDEBRIS
 [VENOMOTH]
 Innates = TOXICDEBRIS
 #----------------------------------------
-[DUCKLETT]
-Innates = SEADIVER
+[VOLBEAT]
+Innates = PRANKSTER
 #----------------------------------------
-[SWANNA]
-Innates = SWANSGRACE
+[ILLUMISE]
+Innates = PRANKSTER
 #----------------------------------------
 [TADBULB]
 Innates = TRANSISTOR
@@ -415,6 +508,12 @@ Innates = NOXIOUSBODY
 #----------------------------------------
 [SCYTHER]
 Innates = TECHNICIAN
+#----------------------------------------
+[DRIFLOON]
+Innates = SOULHEART
+#----------------------------------------
+[DRIFBLIM]
+Innates = SOULHEART
 #----------------------------------------
 [SCIZOR]
 Innates = TECHNICIAN

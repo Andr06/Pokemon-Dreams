@@ -888,7 +888,7 @@ BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LEADER_Brock]
-Name = Gym Leader
+Name = Star Student
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader

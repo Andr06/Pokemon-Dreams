@@ -5,22 +5,43 @@ LoseText = A very good battle, indeed!
 Pokemon = DIGLETT,10
 Pokemon = BONSLY,11
 #-------------------------------
-[LEADER_Brock,Brock]
+[LEADER_Brock,Winnie]
 Items = FULLRESTORE,FULLRESTORE
-LoseText = Very good.
-Pokemon = GEODUDE,12
-    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
-    AbilityIndex = 0
-    Gender = male
+LoseText = That was fun!
+Pokemon = PIDOVE,10
+    Form = 0
+    Item = FOCUSSASH
+    AbilityIndex = 2
+    Moves = TAILWIND,AIRCUTTER,QUICKATTACK,SWIFT
+    EV = 0,0,0,0,0,0
     IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
-    Name = Rocky
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    Shadow = False
+    Happiness = 70
+Pokemon = DUCKLETT,11
+    Form = 0
     AbilityIndex = 0
+    Moves = WORKUP,ATTRACT,AERIALACE,WATERPULSE
+    EV = 0,0,0,0,0,0
+    IV = 20,20,20,20,20,20
+    Shadow = False
+    Happiness = 70
+Pokemon = BUTTERFREE,11
+    Form = 0
+    AbilityIndex = 0
+    Moves = SLEEPPOWDER,AIRCUTTER,STRUGGLEBUG,ELECTROWEB
+    EV = 0,0,0,0,0,0
+    IV = 20,20,20,20,20,20
+    Shadow = False
+    Happiness = 70
+Pokemon = DRIFLOON,12
+    Form = 0
     Item = SITRUSBERRY
-    Gender = male
+	AbilityIndex = 0
+    Moves = STRENGTHSAP,CALMMIND,AIRCUTTER,HEX
+    EV = 0,0,0,0,0,0
     IV = 20,20,20,20,20,20
-    Shiny = true
+    Shadow = False
+    Happiness = 70
     Ball = HEAVYBALL
 #-------------------------------
 [TEAMROCKET_M,Grunt,1]
