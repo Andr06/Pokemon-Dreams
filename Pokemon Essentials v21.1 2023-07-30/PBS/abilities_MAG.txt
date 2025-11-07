@@ -95,10 +95,6 @@ Description = Combo of Teravolt and Overwhelming Frost.
 Name = Frozen Yang
 Description = Combo of Turboblaze and Overwhelming Frost.
 #-------------------------------
-[POISONABSORB]
-Name = Poison Absorb
-Description = Restores HP if hit by a Poison-type move.
-#-------------------------------
 [CRYSTALLIZE]
 Name = Crystallize
 Description = Rock-type moves become Ice-type and powered up.

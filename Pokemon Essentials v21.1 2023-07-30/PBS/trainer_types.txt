@@ -385,8 +385,8 @@ SkillLevel = 72
 Name = Lass
 Gender = Female
 BaseMoney = 16
-SpriteScale = 1
 IntroBGM = BW 128 Trainers_ Eyes Meet (Lass)
+SpriteScale = 1
 #-------------------------------
 [LASS3]
 Name = Lass
@@ -758,8 +758,8 @@ BaseMoney = 40
 Name = Youngster
 Gender = Male
 BaseMoney = 16
-SpriteScale = 1
 IntroBGM = BW 125 Trainers_ Eyes Meet (Youngster)
+SpriteScale = 1
 #-------------------------------
 [YOUNGSTER3]
 Name = Youngster
@@ -893,6 +893,8 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+SpriteScale = 1
+ShadowXY = 0,-10
 #-------------------------------
 [LEADER_Erika]
 Name = Gym Leader

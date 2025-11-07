@@ -237,8 +237,8 @@ ShadowXY = 0,-3
 Name = Parasol Lady
 Gender = Female
 BaseMoney = 32
-ShadowXY = 0,-2
 IntroBGM = BW 205 Trainers_ Eyes Meet (Parasol Lady)
+ShadowXY = 0,-2
 #-------------------------------
 [CLERK_M]
 Name = Clerk

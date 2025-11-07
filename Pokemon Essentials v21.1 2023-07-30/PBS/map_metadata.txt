@@ -449,3 +449,7 @@ Outdoor = true
 ShowArea = true
 BattleBack = FRLGGrass
 Environment = Grass
+#-------------------------------
+[086]   # Academy Grotto
+Name = Academy Grotto
+Outdoor = true

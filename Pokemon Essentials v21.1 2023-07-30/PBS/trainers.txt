@@ -10,37 +10,33 @@ Items = FULLRESTORE,FULLRESTORE
 LoseText = That was fun!
 Pokemon = PIDOVE,10
     Form = 0
-    Item = FOCUSSASH
-    AbilityIndex = 2
     Moves = TAILWIND,AIRCUTTER,QUICKATTACK,SWIFT
-    EV = 0,0,0,0,0,0
+    AbilityIndex = 2
+    Item = FOCUSSASH
     IV = 20,20,20,20,20,20
-    Shadow = False
+    EV = 0,0,0,0,0,0
     Happiness = 70
 Pokemon = DUCKLETT,11
     Form = 0
-    AbilityIndex = 0
     Moves = WORKUP,ATTRACT,AERIALACE,WATERPULSE
-    EV = 0,0,0,0,0,0
+    AbilityIndex = 0
     IV = 20,20,20,20,20,20
-    Shadow = False
+    EV = 0,0,0,0,0,0
     Happiness = 70
 Pokemon = BUTTERFREE,11
     Form = 0
-    AbilityIndex = 0
     Moves = SLEEPPOWDER,AIRCUTTER,STRUGGLEBUG,ELECTROWEB
-    EV = 0,0,0,0,0,0
+    AbilityIndex = 0
     IV = 20,20,20,20,20,20
-    Shadow = False
+    EV = 0,0,0,0,0,0
     Happiness = 70
 Pokemon = DRIFLOON,12
     Form = 0
-    Item = SITRUSBERRY
-	AbilityIndex = 0
     Moves = STRENGTHSAP,CALMMIND,AIRCUTTER,HEX
-    EV = 0,0,0,0,0,0
+    AbilityIndex = 0
+    Item = SITRUSBERRY
     IV = 20,20,20,20,20,20
-    Shadow = False
+    EV = 0,0,0,0,0,0
     Happiness = 70
     Ball = HEAVYBALL
 #-------------------------------
@@ -147,10 +143,51 @@ Pokemon = SLOWPOKE,5
 LoseText = I'm a silly goose! I need to get stronger!
 Pokemon = CATERPIE,4
 Pokemon = NICKIT,4
-Pokemon = LITWICK,5
+Pokemon = LITWICK,5 
 #-------------------------------
 [PARASOLLADY,Mary]
 LoseText = My elegant Pokemon weren't enough!
 Pokemon = CHERUBI,13
 Pokemon = FOMANTIS,14
 Pokemon = IVYSAUR,14
+#-------------------------------
+[PICNICKER,Rose]
+LoseText = I wasn't prepped enough!
+Pokemon = CUTIEFLY,8
+Pokemon = PATRAT,8
+Pokemon = ROSELIA,9
+#-------------------------------
+[PICNICKER,Stella]
+LoseText = Oh biscuit!
+Pokemon = PINECO,4
+Pokemon = MARILL,5
+#-------------------------------
+[YOUNGSTER,Benjamin]
+LoseText = Aw rats!
+Pokemon = HOOTHOOT,8
+Pokemon = MARILL,9
+#-------------------------------
+[YOUNGSTER,Adam]
+LoseText = *Just stands and stares*
+Pokemon = VOLBEAT,8
+    AbilityIndex = 0
+Pokemon = ILLUMISE,9
+    AbilityIndex = 1
+#-------------------------------
+[CAMPER,Derrick]
+LoseText = Man! I just leveled up my Ledyba!
+Pokemon = SKWOVET,8
+Pokemon = LEDYBA,8
+    AbilityIndex = 1
+#-------------------------------
+[LASS,Molly]
+LoseText = What a delightful battle!
+Pokemon = TEDDIURSA,8
+    IV = 10,0,10,10,10,10
+Pokemon = SINISTEA,9
+    IV = 10,0,10,10,10,10
+Pokemon = POLTCHAGEIST,9
+    AbilityIndex = 1
+    Item = EVIOLITE
+    IV = 10,0,10,10,10,10
+    Ball = GREATBALL

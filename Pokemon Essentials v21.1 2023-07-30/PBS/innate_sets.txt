@@ -521,6 +521,12 @@ Innates = TECHNICIAN
 [KLEAVOR]
 Innates = SHARPNESS
 #----------------------------------------
+[POLTCHAGEIST]
+Innates = HEATPROOF
+#----------------------------------------
+[SINISTCHA]
+Innates = HEATPROOF
+#----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY
 #----------------------------------------
