@@ -4692,3 +4692,8 @@ ShadowSprite = 2,-2,8
 BackSprite = 7,38
 FrontSprite = 0,17
 ShadowSprite = 2,1,0
+#-------------------------------
+[CLAIRVIAR]
+BackSprite = 0,0
+FrontSprite = 0,16,1
+ShadowSprite = -1,0,2

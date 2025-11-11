@@ -527,6 +527,9 @@ Innates = HEATPROOF
 [SINISTCHA]
 Innates = HEATPROOF
 #----------------------------------------
+[CLAIRVIAR]
+Innates = CAUTIOUSENTRANCE
+#----------------------------------------
 [AGGRON]
 Innates = FILTER,CLEARBODY
 #----------------------------------------
