@@ -524,4 +524,9 @@ OverworldWater,20
 	20,LOTAD,5,7
 	15,PIDOVE,5,7
 	10,WOOPER,5,7
+#-------------------------------
+[087] # Cedric Manor
+OverworldCave,1
+    10,LITWICK,15,18
+	60,SPINARAK,15,18
 
