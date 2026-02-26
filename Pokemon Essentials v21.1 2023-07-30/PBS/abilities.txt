@@ -1152,7 +1152,7 @@ Name = Final Blow
 Description = Gives priority to damaging moves when the opponent has 25% HP.
 #-------------------------------
 [AURAMASTER]
-Name = AURAMASTER
+Name = Aura Master
 Description = Powers up aura and pulse moves.
 #-------------------------------
 [AMBUSH]

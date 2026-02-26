@@ -159,7 +159,7 @@ Innates = MIRRORARMOR
 Innates = MINDSEYE
 #----------------------------------------
 [NOCTOWL]
-Innates = MINDEYES
+Innates = MINDSEYE
 #----------------------------------------
 [GOLDEEN]
 Innates = LIGHTNINGROD
@@ -397,6 +397,15 @@ Innates = MAGICGUARD
 #----------------------------------------
 [DELPHOX]
 Innates = MAGICGUARD
+#----------------------------------------
+[CHIMCHAR]
+Innates = IRONFIST
+#----------------------------------------
+[MONFERNO]
+Innates = IRONFIST
+#----------------------------------------
+[INFERNAPE]
+Innates = IRONFIST
 #----------------------------------------
 [TOTODILE]
 Innates = STRONGJAW
