@@ -434,12 +434,14 @@ Environment = Grass
 [078]   # Cedric Academy
 Name = Cedric Academy
 Outdoor = true
+ShowArea = true
 BattleBack = FRLGGrass
 Environment = Grass
 #-------------------------------
 [080]   # Frannaple Meadow Outskirts
 Name = Franapple Meadow Outskirts
 Outdoor = true
+ShowArea = true
 BattleBack = FRLGGrass2
 Environment = Grass
 #-------------------------------
@@ -453,3 +455,5 @@ Environment = Grass
 [086]   # Academy Grotto
 Name = Academy Grotto
 Outdoor = true
+ShowArea = true
+BattleBack = FRLGGrass

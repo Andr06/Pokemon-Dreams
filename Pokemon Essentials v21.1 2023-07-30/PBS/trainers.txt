@@ -5,41 +5,6 @@ LoseText = A very good battle, indeed!
 Pokemon = DIGLETT,10
 Pokemon = BONSLY,11
 #-------------------------------
-[LEADER_Brock,Winnie]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = That was fun!
-Pokemon = PIDOVE,10
-    Form = 0
-    Moves = TAILWIND,AIRCUTTER,QUICKATTACK,SWIFT
-    AbilityIndex = 2
-    Item = FOCUSSASH
-    IV = 20,20,20,20,20,20
-    EV = 0,0,0,0,0,0
-    Happiness = 70
-Pokemon = DUCKLETT,11
-    Form = 0
-    Moves = WORKUP,ATTRACT,AERIALACE,WATERPULSE
-    AbilityIndex = 0
-    IV = 20,20,20,20,20,20
-    EV = 0,0,0,0,0,0
-    Happiness = 70
-Pokemon = BUTTERFREE,11
-    Form = 0
-    Moves = SLEEPPOWDER,AIRCUTTER,STRUGGLEBUG,ELECTROWEB
-    AbilityIndex = 0
-    IV = 20,20,20,20,20,20
-    EV = 0,0,0,0,0,0
-    Happiness = 70
-Pokemon = DRIFLOON,12
-    Form = 0
-    Moves = STRENGTHSAP,CALMMIND,AIRCUTTER,HEX
-    AbilityIndex = 0
-    Item = SITRUSBERRY
-    IV = 20,20,20,20,20,20
-    EV = 0,0,0,0,0,0
-    Happiness = 70
-    Ball = HEAVYBALL
-#-------------------------------
 [TEAMROCKET_M,Grunt,1]
 LoseText = You're too good for me!
 Pokemon = WEEPINBELL,21
@@ -134,6 +99,54 @@ Pokemon = CHARIZARD,63
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
+[trainer_RIVAL3_CORVIN,Corvin,1]
+LoseText = You have potential!
+Pokemon = FROAKIE,5
+    AbilityIndex = 1
+    Ball = DUSKBALL
+#-------------------------------
+[trainer_RIVAL1_ALICE,Alice,1]
+Items = POTION
+LoseText = Amazing!
+Pokemon = LEDYBA,5
+    Form = 0
+    AbilityIndex = 1
+    Moves = TACKLE,SUPERSONIC,AERIALACE
+    EV = 0,0,0,0,0,0
+    IV = 0,0,0,0,0,0
+    Shadow = False
+    Happiness = 70
+    Ball = POKEBALL
+Pokemon = AZURILL,5
+    Form = 0
+    AbilityIndex = 0
+    Moves = AQUAJET,TAILWHIP,CHARM
+    EV = 0,0,0,0,0,0
+    IV = 2,10,5,5,0,0
+    Shadow = False
+    Happiness = 70
+    Ball = POKEBALL
+Pokemon = EEVEE,5
+    Form = 0
+    AbilityIndex = 1
+    Moves = COVET,TACKLE,GROWL,SANDATTACK
+    EV = 22,0,0,0,0,0
+    IV = 5,0,5,2,0,0
+    Shadow = False
+    Happiness = 70
+    Ball = POKEBALL
+Pokemon = PASSIMIAN,6
+    Form = 0
+    AbilityIndex = 1
+    Moves = TACKLE,LEER,ROCKSMASH,AERIALACE
+    EV = 0,50,0,0,0,0
+    IV = 4,15,4,6,0,5
+    Nature = ADAMANT
+    Shadow = False
+    Happiness = 70
+    Ball = POKEBALL
+
+#-------------------------------
 [CAMPER,Milo]
 LoseText = Darn! My Slowpoke must be too slow!
 Pokemon = BUNNELBY,4
@@ -143,7 +156,7 @@ Pokemon = SLOWPOKE,5
 LoseText = I'm a silly goose! I need to get stronger!
 Pokemon = CATERPIE,4
 Pokemon = NICKIT,4
-Pokemon = LITWICK,5 
+Pokemon = LITWICK,5
 #-------------------------------
 [PARASOLLADY,Mary]
 LoseText = My elegant Pokemon weren't enough!
@@ -191,3 +204,38 @@ Pokemon = POLTCHAGEIST,9
     Item = EVIOLITE
     IV = 10,0,10,10,10,10
     Ball = GREATBALL
+#-------------------------------
+[LEADER_Brock,Winnie]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = That was fun!
+Pokemon = PIDOVE,10
+    Form = 0
+    Moves = TAILWIND,AIRCUTTER,QUICKATTACK,SWIFT
+    AbilityIndex = 2
+    Item = FOCUSSASH
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,0,0,0
+    Happiness = 70
+Pokemon = DUCKLETT,11
+    Form = 0
+    Moves = WORKUP,ATTRACT,AERIALACE,WATERPULSE
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,0,0,0
+    Happiness = 70
+Pokemon = BUTTERFREE,11
+    Form = 0
+    Moves = SLEEPPOWDER,AIRCUTTER,STRUGGLEBUG,ELECTROWEB
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,0,0,0
+    Happiness = 70
+Pokemon = DRIFLOON,12
+    Form = 0
+    Moves = STRENGTHSAP,CALMMIND,AIRCUTTER,HEX
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    IV = 20,20,20,20,20,20
+    EV = 0,0,0,0,0,0
+    Happiness = 70
+    Ball = HEAVYBALL

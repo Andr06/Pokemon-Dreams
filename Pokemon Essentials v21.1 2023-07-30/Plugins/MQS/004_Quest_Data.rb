@@ -9,29 +9,36 @@ module QuestModule
   # Here's the simplest example of a single-stage quest with everything specified
   Quest1 = {
     :ID => "1",
-    :Name => "First Day",
+    :Name => "First Introductions",
     :QuestGiver => "nil",
-    :Stage1 => "Get your starter in the laboratory.",
+    :Stage1 => "Meet the professor.",
+    :Stage2 => "Get your starter.",
+    :Stage3 => "Battle Corvin with your starter!",
     :Location1 => "Academy Laboratory",
-    :QuestDescription => "Meet the professor his laboratory on the top floor of the academy to get your starters.",
+    :Location2 => "Academy Laboratory",
+    :Location3 => "Academy Laboratory",
+    :StageLabel1 => "1",
+	  :StageLabel2 => "2",
+  	:StageLabel4 => "3",
+    :QuestDescription => "Meet the professor and start your first day!.",
     :RewardString => "nil"
   }
   
   # Here's an extension of the above that includes multiple stages
   Quest2 = {
     :ID => "2",
-    :Name => "Introductions",
-    :QuestGiver => "Little Boy",
-    :Stage1 => "Look for clues.",
-    :Stage2 => "Follow the trail.",
+    :Name => "Getting a team",
+    :QuestGiver => "nil",
+    :Stage1 => "Meet Alice in front of the academy.",
+    :Stage2 => "Go around the academy to catch Pokémon.",
     :Stage3 => "Catch the troublemakers!",
-    :Location1 => "Lappet Town",
-    :Location2 => "Viridian Forest",
+    :Location1 => "Front of Academy",
+    :Location2 => "nil",
     :Location3 => "Route 3",
 	:StageLabel1 => "1",
 	:StageLabel2 => "2",
-    :QuestDescription => "Some wild Pokémon stole a little boy's favourite toy. Find those troublemakers and help him get it back.",
-    :RewardString => "Something shiny!"
+    :QuestDescription => "Alice wants to fight you with a full team!",
+    :RewardString => "nil!"
   }
   
   # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage

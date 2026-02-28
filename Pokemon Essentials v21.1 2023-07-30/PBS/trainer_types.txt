@@ -983,7 +983,22 @@ BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
 #-------------------------------
+[trainer_RIVAL3_CORVIN]
+Name = Assistant
+Gender = Male
+BaseMoney = 60
+BattleBGM = Battle Rival
+SpriteScale = 1
+ShadowXY = 0,-9
+#-------------------------------
 [PROFESSOR_CEDRIC]
 Name = Professor
 Gender = Male
 BaseMoney = 100
+#-------------------------------
+[trainer_RIVAL1_ALICE]
+Name = Rival
+Gender = Female
+BaseMoney = 60
+BattleBGM = Battle Rival
+SpriteScale = 1
