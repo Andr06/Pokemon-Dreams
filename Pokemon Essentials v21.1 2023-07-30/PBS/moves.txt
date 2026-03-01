@@ -8786,3 +8786,13 @@ Target = NearOther
 FunctionCode = TypeAndPowerDependOnTerrain
 Flags = CanProtect,CanMirrorMove,Contact
 Description = Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.
+#-------------------------------
+[DREAMYTERRAIN]
+Name = Dreamy Terrain
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = BothSides
+FunctionCode = StartDreamyTerrain
+Description = The user covers the ground with dreamy mist for five turns. Grounded Pokémon can't fall asleep. Some Pokémon have special forms based on terrain.

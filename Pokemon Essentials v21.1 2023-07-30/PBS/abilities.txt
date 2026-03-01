@@ -1190,4 +1190,7 @@ Description = Sets up Trick Room on switch in. Lasts three turns.
 [POISONABSORB]
 Name = Poison Absorb
 Description = Restores HP if hit by a Poison-type move.
-
+#-------------------------------
+[DREAMYSURGE]
+Name = Dreamy Surge
+Description = Turns the ground into Dreamy Terrain.
