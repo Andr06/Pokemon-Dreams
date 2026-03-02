@@ -532,6 +532,12 @@ end
         else
           desc = _INTL("Grounded Pokémon immune to statuses. Weakens Dragon moves.")
         end
+      when :Dreamy
+        if battler.pbOwnedByPlayer?
+          desc = _INTL("The Pokémon can't fall asleep. Certain Pokémon are affected.")
+        else
+          desc = _INTL("Grounded Pokémon can't fall asleep. Affects certain Pokémon.")
+        end
       else
         desc = _INTL("Unknown terrain.")
       end
