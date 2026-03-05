@@ -728,11 +728,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:FROZENYANG,
 	# Poison Absorb
 	# Gain HP after getting hit by a Poison type move.
 #===============================================================================
-Battle::AbilityEffects::MoveImmunity.add(:POISONABSORB,
-	proc { |ability, user, target, move, type, battle, show_message|
-		next target.pbMoveImmunityHealingAbility(user, move, type, :POISON, show_message)
-	}
-)
+
 
 #===============================================================================
 	# Crystallize

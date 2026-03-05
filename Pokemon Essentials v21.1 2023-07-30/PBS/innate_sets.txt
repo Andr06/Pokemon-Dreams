@@ -389,6 +389,9 @@ Innates = SELFSUFFICIENT
 [TORTERRA]
 Innates = SELFSUFFICIENT
 #----------------------------------------
+[TORTERRA_1]
+Innates = SELFSUFFICIENT
+#----------------------------------------
 [FENNEKIN]
 Innates = FLASHFIRE
 #----------------------------------------

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pokemon Editor.exe" version="1.0.0.0" publicKeyToken="11656c7cf62f3f45" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17328">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8ciMGwxojD9/gQ6ATI/hanEMQgoovRSW1b3IwP85qpQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pokemon Editor.deps.json" size="434">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P/iLewBWGnGVP7eflGIDyZEEDzMcSEloqdYFPaJ0uE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pokemon Editor.dll" size="18864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>boeK27tEjl9z4DFz5LpB6VQkRPOMXfRMk86Peg+Kpo8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pokemon Editor.exe" size="155568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>koKpWNuHz/uVVQJG+/zQyfWRCbusQ5CBq0S3TuaMDdg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pokemon Editor.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PCGMING\robbi" issuerKeyHash="a8625214c3932995966b03053dc4a50b0e572828" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ejCX+G/f9J352P7PImBUFatNVmN2OZGg7KrOvyA8rNY=</DigestValue></Reference></SignedInfo><SignatureValue>VYTdRJxdQGdglQcDaKVz4tv+xxYMuw/bdm2b6v31aGu621/ZV927hBNstpIbZlR1+IPh74TG2nOzZu94Wg83OtvP/oZDd65uarPpv7owWMv4uCSeWVTXNn3xcMsy/MKMqHbNKTdU5dgbJeJEHIB8FGPhaa1UBQYD+R2jJ3Dpw3o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zZnv5qVSg+7NZr/9pMh9FBC5Yl34OW4Iz/bSt1/b/jykYRu5V+SXoiOZP+4Rrly9kK1/Dd2oE/ibIzWR+jqkRQLjON2Qx7hiZVpbPgZipV5l52gKH0WReiHbSiod10vbWn++vFOJ4j4plksbYeYOynSM5ffcCZcnZD/8f/T7F5U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d6ac3c20bfceaaeca091397663564dab15546022cffed8f99df4df6ff897307a" Description="" Url=""><as:assemblyIdentity name="Pokemon Editor.exe" version="1.0.0.0" publicKeyToken="11656c7cf62f3f45" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PCGMING\robbi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SCtyypnyjXjs3p6R9gQN056P6fMv9mLouoHAiNW6NsM=</DigestValue></Reference></SignedInfo><SignatureValue>LwcJoaEttEa5RUShyERLPagTyYK1AxWoDYdm+ibX67yf/TxDq9/3+MbaQ+nK6L8/dy1PG7F9BMzt1C5kaGU0b8TQbK1p6khj+4kerFso5iPNf6UgUWyVKCIJl1xT8qrzNT2g2QLk/aLUaYdG3gZbdyRTW3DuhrUcAgNSa2wCFMo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zZnv5qVSg+7NZr/9pMh9FBC5Yl34OW4Iz/bSt1/b/jykYRu5V+SXoiOZP+4Rrly9kK1/Dd2oE/ibIzWR+jqkRQLjON2Qx7hiZVpbPgZipV5l52gKH0WReiHbSiod10vbWn++vFOJ4j4plksbYeYOynSM5ffcCZcnZD/8f/T7F5U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQGkbtmX2NRo5GZmz9iDM7PDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUABDAEcATQBJAE4ARwBcAHIAbwBiAGIAaTAeFw0yMzA5MjcwOTUyMzlaFw0yNDA5MjYxNTUyMzlaMCUxIzAhBgNVBAMeGgBQAEMARwBNAEkATgBHAFwAcgBvAGIAYgBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNme/mpVKD7s1mv/2kyH0UELliXfg5bgjP9tK3X9v+PKRhG7lX5JeiI5k/7hGuXL2QrX8N3agT+JsjNZH6OqRFAuM43ZDHuGJlWls+BmKlXmXnaAofRZF6IdtKKh3XS9taf768U4niPimWSxth5g7KdIzl99wJlydkP/x/9PsXlQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABqVIML/TvTceMh7TPFUVVmthT8vQZlrpvzZb3AuP0liXmDQxoE0//6Ov1+RHEvLpR2HKnVkYSShCfe1ftUloy8TD55PjyaedYXmsDPOs42MoieXn/LAdSy+yM86UmPO55dKrI1XyCySAKVFB5lzxUqOeDrJITQMnIC7CUnW/qVQ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

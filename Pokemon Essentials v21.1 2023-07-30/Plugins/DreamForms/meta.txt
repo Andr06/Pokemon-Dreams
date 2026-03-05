@@ -1,0 +1,5 @@
+Name         = Dream
+Essentials   = 21.1
+Version      = 1
+Website      = Nil
+Credits      = Andr06

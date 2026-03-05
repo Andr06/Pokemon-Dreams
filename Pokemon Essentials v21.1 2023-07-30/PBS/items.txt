@@ -2130,6 +2130,15 @@ SellPrice = 0
 Flags = Fling_60
 Description = A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.
 #-------------------------------
+[DREAMCATCHER]
+Name = Dreamcatcher
+NamePlural = Dreamcatcher
+Pocket = 1
+Price = 10000
+SellPrice = 0
+Flags = Fling_60
+Description = A hoop that can be worn to cast off nightmares. Some Pokémon have special forms when encased in dreamy terrain.
+#-------------------------------
 [RUSTEDSWORD]
 Name = Rusted Sword
 NamePlural = Rusted Swords
@@ -4966,8 +4975,8 @@ Pocket = 4
 Price = 3000
 BPPrice = 32
 FieldUse = TR
-Flags = Fling_100
-Move = DREAMEATER
+Flags = Fling_60
+Move = AIRCUTTER
 Description = The user eats the dreams of a sleeping target. The user's HP is restored by half the damage dealt.
 #-------------------------------
 [TM86]

@@ -1680,7 +1680,7 @@ Category = Tadpole
 Pokedex = Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
 Generation = 1
 WildItemUncommon = KINGSROCK
-Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
+Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Item,KINGSROCK
 RaidRanks = 2,3
 #-------------------------------
 [POLIWRATH]
@@ -3405,7 +3405,7 @@ Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
 Flags = HasGenderedSprites
-Evolutions = SCIZOR,TradeItem,METALCOAT
+Evolutions = SCIZOR,HoldItem,METALCOAT
 RaidRanks = 3,4
 #-------------------------------
 [JYNX]
@@ -18443,7 +18443,7 @@ Shape = HeadArms
 Category = Perfume
 Pokedex = It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.
 Generation = 6
-Evolutions = AROMATISSE,TradeItem,SACHET
+Evolutions = AROMATISSE,HoldItem,SACHET
 RaidRanks = 1,2
 #-------------------------------
 [AROMATISSE]
@@ -19118,7 +19118,7 @@ Shape = HeadArms
 Category = Stump
 Pokedex = These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
 Generation = 6
-Evolutions = TREVENANT,Trade,
+Evolutions = TREVENANT,LevelNight,32
 RaidRanks = 1,2
 #-------------------------------
 [TREVENANT]
