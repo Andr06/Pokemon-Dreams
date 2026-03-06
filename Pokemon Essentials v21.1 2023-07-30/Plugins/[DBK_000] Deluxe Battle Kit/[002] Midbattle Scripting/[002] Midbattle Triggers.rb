@@ -1609,6 +1609,7 @@ MidbattleHandlers.add(:midbattle_triggers, "changeTerrain",
       when :Grassy    then battle.pbDisplay(_INTL("The grass disappeared from the battlefield."))
       when :Misty     then battle.pbDisplay(_INTL("The mist disappeared from the battlefield."))
       when :Psychic   then battle.pbDisplay(_INTL("The weirdness disappeared from the battlefield."))
+      when :Dreamy    then battle.pbDisplay(_INTL("The dreamy mist disappeared from the battlefield."))
       else                 battle.pbDisplay(_INTL("The battlefield returned to normal."))
       end
       battle.pbStartTerrain(battler, :None)
