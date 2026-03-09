@@ -40,10 +40,45 @@ module QuestModule
     :QuestDescription => "Alice wants to fight you with a full team!",
     :RewardString => "nil!"
   }
-  
-  # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage
-  Quest3 = {
+
+   Quest3 = {
     :ID => "3",
+    :Name => "Breezey Battle",
+    :QuestGiver => "nil",
+    :Stage1 => "Battle Winnie.",
+    :Location1 => "Academy Courtyard",
+	:StageLabel1 => "1",
+    :QuestDescription => "Get your first patch",
+    :RewardString => "nil!"
+  }
+  
+  Quest4 = {
+    :ID => "4",
+    :Name => "The rumbling forest",
+    :QuestGiver => "nil",
+    :Stage1 => "Battle Edna.",
+    :Stage2 => "Battle the Forest King.",
+    :Location1 => "Academy Courts",
+    :Location2 => "Deep Academy Forest",
+	:StageLabel1 => "1",
+	:StageLabel2 => "2",
+    :QuestDescription => "The Forest Rumbles.",
+    :RewardString => "nil!"
+  }
+
+     Quest6 = {
+    :ID => "6",
+    :Name => "Crawly Gardens",
+    :QuestGiver => "nil",
+    :Stage1 => "Battle the second Star Student.",
+    :Location1 => "Deeper Academy Garden",
+	:StageLabel1 => "1",
+    :QuestDescription => "Get your second patch.",
+    :RewardString => "nil!"
+  }
+  # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage
+  Quest125 = {
+    :ID => "12",
     :Name => "Last-minute chores",
     :QuestGiver => "Grandma",
     :Stage1 => "A",
@@ -66,8 +101,8 @@ module QuestModule
   }
   
   # Here's an example of not defining the quest giver and reward text
-  Quest4 = {
-    :ID => "4",
+  Quest4135 = {
+    :ID => "4513",
     :Name => "A new beginning",
     :QuestGiver => "nil",
     :Stage1 => "Turning over a new leaf... literally!",
@@ -79,8 +114,8 @@ module QuestModule
   }
   
   # Other random examples you can look at if you want to fill out the UI and check out the page scrolling
-  Quest5 = {
-    :ID => "5",
+  Quest5135 = {
+    :ID => "5135",
     :Name => "All of my friends",
     :QuestGiver => "Barry",
     :Stage1 => "Meet your friends near Acuity Lake.",
